@@ -1,119 +1,125 @@
-# 🎬 Cinema a Milano — pagina + aggiornamento automatico
+# 🎬 Cinema a Milano — page + automatic updates
 
-Una pagina con la programmazione di **Cinema Beltrade**, **Anteo Palazzo del
-Cinema** (Piazza XXV Aprile) e **Multisala Colosseo**: pill **V.O.** per i film
-in lingua originale, orari di tutta la settimana, link 🎟 al biglietto di ogni
-spettacolo Anteo, filtri per giorno e lingua.
+A page with the weekly programming of **Cinema Beltrade**, **Anteo Palazzo del
+Cinema** (Piazza XXV Aprile) and **Multisala Colosseo**: a **V.O.** pill for
+original-language films, showtimes for the whole week, a 🎟 ticket link for
+every Anteo screening, and day / language / search filters.
 
-## Le due versioni
+## The two versions
 
-- **Locale**: apri `index.html` (doppio click). Il Mac la aggiorna da solo
-  (launchd, 08:10 e 17:40, o al primo risveglio).
-- **Online** (GitHub Pages): stessa identica pagina, servita da GitHub, che si
-  aggiorna da solo nel cloud — anche col Mac spento.
+- **Online (GitHub Pages)** — the main page, served by GitHub, updates itself
+  in the cloud — even with your Mac off.
+- **Local** — open `index.html` (double-click): an offline spare copy.
+  Local automatic updates are **disabled**: to refresh it manually run
+  `python3 ~/cinema-milano/update.py` (a ⚠️ notice appears when the data is
+  older than the day you open it on).
 
-## Come funziona l'aggiornamento
+## How the refresh works
 
 ```
-siti dei cinema ──▶ update.py ──▶ cinema-data.js ──▶ index.html
-                     ▲                │
-        Mac (launchd 2×/giorno)      └─ bot GitHub Actions (3×/giorno)
-                                          committa i dati → Pages ridistribuisce
+cinema sites ──▶ update.py ──▶ cinema-data.js ──▶ index.html
+                                     │
+   manual, on your Mac ─────────────┤
+                                     └─ GitHub Actions bot (3×/day):
+                                        commits fresh data → Pages redeploys
 ```
 
-Il pulsante **⟳** non può leggere i siti dei cinema (i browser bloccano le
-richieste verso altri domini): rilegge solo l'ultimo `cinema-data.js` generato.
-Chi genera i dati è lo script — in locale o nel cloud, a seconda della versione.
+The **⟳** button cannot read the cinema sites (browsers block cross-domain
+requests): it only reloads the latest generated `cinema-data.js`. The script is
+what produces the data — locally or in the cloud.
 
-Aggiornamento immediato a mano: `python3 ~/cinema-milano/update.py`, poi ⟳.
+Immediate manual update: `python3 ~/cinema-milano/update.py`, then ⟳.
 
-## Pubblicare su GitHub Pages (una volta sola)
+## Publish on GitHub Pages (one time only)
 
-La cartella è già un repository git pronto, con il workflow che aggiorna i dati
-nel cloud (`.github/workflows/update.yml`).
+The folder is already a git repository, including the cloud-updater workflow
+(`.github/workflows/update.yml`).
 
-1. Su github.com: **New repository** → nome `cinema-milano` → **Public**
-   (Pages gratuito richiede il repo pubblico; contiene solo orari del cinema) →
-   **Create** senza README né .gitignore.
-2. Sul Mac:
+1. On github.com: **New repository** → name it `cinema-milano` → **Public**
+   (free Pages requires a public repo — it only contains cinema listings) →
+   **Create**, with no README and no .gitignore.
+2. On the Mac:
    ```sh
    cd ~/cinema-milano
-   git remote add origin git@github.com:TUO-UTENTE/cinema-milano.git
+   git remote add origin git@github.com:YOUR-USERNAME/cinema-milano.git
    git push -u origin main
    ```
-3. Nel repo su GitHub: **Settings → Pages → Source: *Deploy from a branch* →
+3. In the repo: **Settings → Pages → Source: *Deploy from a branch* →
    `main` / `(root)` → Save**.
-4. Dopo ~1 minuto la pagina è su
-   `https://TUO-UTENTE.github.io/cinema-milano/`
-5. (Opzionale) per un aggiornamento immediato: tab **Actions → aggiorna-dati →
-   Run workflow**. In poi parte da solo 3 volte al giorno
-   (~08:10 · 17:10 · 21:10 ora italiana d'inverno, +1h d'estate; i cron di
-   GitHub possono ritardare qualche minuto).
+4. After ~1 minute the page is live at
+   `https://YOUR-USERNAME.github.io/cinema-milano/`
+5. (Optional) to trigger a first update right away: **Actions →
+   aggiorna-dati → Run workflow**. From then on it runs by itself 3 times a day
+   (~08:10 · 17:10 · 21:10 Rome time in winter, +1h in summer; GitHub cron can
+   slip a few minutes).
 
-Una volta online, la pagina si tiene aggiornata da sola: il bot committa i
-nuovi orari e il pulsante ⟳ (o il ritorno sulla scheda del browser) li carica.
+Once online, the page keeps itself fresh: the bot commits new showtimes and the
+⟳ button (or just switching back to the browser tab) picks them up.
 
-### Nota sul repo locale
+### Note on the local repo
 
-Il launchd del Mac continua ad aggiornare i file locali (la copia offline):
-`cinema-data.js` e `index.html` risulteranno modificati nel repo locale. Se
-un giorno fai `git pull` per prendere le modifiche del bot, prima rimetti
-puliti i file generati:
+Local automatic updates are disabled, so the repo stays clean unless you update
+manually (`python3 update.py` rewrites `cinema-data.js` and `index.html`).
+Before a `git pull` of the bot's changes, restore the generated files:
 
 ```sh
 git restore cinema-data.js index.html
 ```
 
-…oppura disattiva l'aggiornamento locale (il cloud basta):
+If you ever want local automatic updates back (to keep the offline copy always
+fresh):
 
 ```sh
-launchctl bootout gui/501 ~/Library/LaunchAgents/com.cinema-milano.update.plist
-```
-
-## File
-
-| File | A cosa serve |
-|---|---|
-| `index.html` | la pagina (contiene anche una copia di riserva dei dati) |
-| `cinema-data.js` | i dati, generati dallo script |
-| `update.py` | legge i siti dei cinema e rigenera i dati (solo stdlib Python) |
-| `.github/workflows/update.yml` | il bot GitHub Actions (aggiornamento nel cloud) |
-| `update.log` | cronologia degli aggiornamenti locali (non committato) |
-| `~/Library/LaunchAgents/com.cinema-milano.update.plist` | l'automazione locale (launchd) |
-
-## Comandi utili
-
-```sh
-# aggiornamento manuale
-python3 ~/cinema-milano/update.py
-
-# seguire gli aggiornamenti automatici locali
-tail -f ~/cinema-milano/update.log
-
-# disattivare l'automazione locale
-launchctl bootout gui/501 ~/Library/LaunchAgents/com.cinema-milano.update.plist
-
-# riattivarla
 launchctl bootstrap gui/501 ~/Library/LaunchAgents/com.cinema-milano.update.plist
 ```
 
-## Fonti dei dati
+To disable it again:
+`launchctl bootout gui/501 ~/Library/LaunchAgents/com.cinema-milano.update.plist`
 
-- **Cinema Beltrade** → calendario iCal ufficiale (`beltrade.ics`) + scheda di
-  ogni film per lingua/regia/cast.
-- **Anteo Palazzo del Cinema** → API JSON del calendario spazioCinema
-  (`@@get-calendario`, una chiamata per giorno): spettacoli del Palazzo con sala,
-  lingua per singolo spettacolo, locandina e link biglietto. Le altre sedi
-  (CityLife, Ariosto, Monza, Treviglio…) sono escluse di proposito.
-- **Multisala Colosseo** → pagina programmazione (HTML strutturato), con versioni
-  italiana e inglese; MyMovies conferma che le proiezioni in inglese sono
-  sottotitolate in italiano.
+## Files
 
-Se un cinema è irraggiungibile, lo script riusa i dati dell'ultimo aggiornamento
-riuscito e lo segnala nel log.
+| File | Purpose |
+|---|---|
+| `index.html` | the page (also carries a backup copy of the data) |
+| `cinema-data.js` | the data, generated by the script |
+| `update.py` | scrapes the cinema sites and regenerates the data (Python stdlib only) |
+| `.github/workflows/update.yml` | the GitHub Actions bot (cloud updates) |
+| `update.log` | log of local updates (not committed) |
+| `~/Library/LaunchAgents/com.cinema-milano.update.plist` | local automation — **disabled**, one command to re-enable |
 
-## Note
+## Useful commands
 
-- Per includere anche CityLife/Ariosto nel circuito Anteo: in `update.py`,
-  funzione `is_palazzo`, accetta anche i link `citylife.` / `ariosto.`.
-- Panoramica di tutte le sale di Milano: <https://www.mymovies.it/cinema/milano/>
+```sh
+# manual update
+python3 ~/cinema-milano/update.py
+
+# past local updates (automation is off: new lines only after manual runs)
+tail -f ~/cinema-milano/update.log
+
+# disable local automation (already disabled — for reference)
+launchctl bootout gui/501 ~/Library/LaunchAgents/com.cinema-milano.update.plist
+
+# re-enable it
+launchctl bootstrap gui/501 ~/Library/LaunchAgents/com.cinema-milano.update.plist
+```
+
+## Data sources
+
+- **Cinema Beltrade** → official iCal calendar (`beltrade.ics`) + each film's
+  page for language / director / cast.
+- **Anteo Palazzo del Cinema** → spazioCinema calendar JSON API
+  (`@@get-calendario`, one call per day): Palazzo screenings with hall,
+  per-screening language, poster and ticket link. The other venues (CityLife,
+  Ariosto, Monza, Treviglio…) are excluded on purpose.
+- **Multisala Colosseo** → schedule page (structured HTML), with Italian and
+  English versions; MyMovies confirms the English screenings are subtitled in
+  Italian.
+
+If a cinema is unreachable, the script reuses the data from the last successful
+update and logs a warning.
+
+## Notes
+
+- To include CityLife/Ariosto in the Anteo circuit: in `update.py`, function
+  `is_palazzo`, accept the `citylife.` / `ariosto.` links too.
+- Overview of every cinema in Milan: <https://www.mymovies.it/cinema/milano/>
