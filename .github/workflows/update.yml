@@ -1,0 +1,45 @@
+name: aggiorna-dati
+
+on:
+  schedule:
+    # orari in UTC — Roma (CET/CEST):
+    #   inverno → 08:10 · 17:10 · 21:10
+    #   estate  → 09:10 · 18:10 · 22:10
+    # (i cron di GitHub possono ritardare qualche minuto, raramente di più)
+    - cron: '10 7,16,20 * * *'
+  workflow_dispatch: {}        # consentire l'avvio manuale dalla tab Actions
+
+permissions:
+  contents: write              # serve al bot per committare i dati aggiornati
+
+concurrency:
+  group: aggiornamento
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      TZ: Europe/Rome
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: leggi i siti dei cinema
+        run: python3 update.py
+
+      - name: committa i dati aggiornati
+        run: |
+          git config user.name  "cinema-milano-updater"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cinema-data.js index.html
+          if git diff --cached --quiet; then
+            echo "nessun cambiamento da salvare"
+          else
+            git commit -m "dati cinema: aggiornamento automatico $(date +'%d/%m %H:%M')"
+            git push
+          fi
