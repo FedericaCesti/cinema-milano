@@ -8,79 +8,83 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>">
 <style>
   :root{
-    --bg:#0e1014; --bg2:#14171d; --card:#181b22; --card2:#1e222c;
-    --line:#262b36; --line2:#333a49;
-    --text:#ece9e2; --muted:#a2a8b5; --faint:#7c8290;
-    --gold:#e3b35a; --gold2:#f2cf8a;
+    --bg:#0c1015; --bg2:#12171e; --card:#161c24; --card2:#1c232d;
+    --line:#242c38; --line2:#334050;
+    --text:#e8ecf1; --muted:#9daab8; --faint:#8492a1;
+    --acc:#6fb8e6; --acc2:#a3d6f4;
+    --velvet:#a83a32; --velvet2:#c2493f;
   }
   *{box-sizing:border-box}
   html{scroll-behavior:smooth}
   body{
     margin:0;background:var(--bg);color:var(--text);
-    font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font:15px/1.5 Arial,Helvetica,sans-serif;
     -webkit-font-smoothing:antialiased;
   }
-  .serif{font-family:"Bodoni Moda","Playfair Display",Didot,"Bodoni MT","Times New Roman",Georgia,serif}
-  a{color:var(--gold2);text-decoration:none}
+  a{color:var(--acc2);text-decoration:none}
   a:hover{text-decoration:underline}
   code{font-family:ui-monospace,Menlo,monospace;font-size:.9em;background:var(--bg2);padding:1px 5px;border-radius:4px}
+
+  /* accessibilità */
+  :focus-visible{outline:2px solid var(--acc2);outline-offset:2px;border-radius:4px}
+  @media (prefers-reduced-motion:reduce){
+    *,*::before,*::after{animation:none!important;transition:none!important}
+    html{scroll-behavior:auto}
+  }
 
   /* ---------- topbar ---------- */
   .topbar{
     display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;
-    padding:14px 22px 12px;
-    background:radial-gradient(900px 300px at 30% -80px,#232a3a,var(--bg));
+    padding:12px 22px;
+    background:radial-gradient(900px 320px at 32% -90px,#16222e,var(--bg));
     border-bottom:1px solid var(--line);
   }
   .tb-left{display:flex;align-items:center;gap:12px}
-  .logo{font-size:30px;line-height:1}
-  .ttl{font-size:26px;font-weight:700;line-height:1.05}
-  .sub{font-size:12px;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;margin-top:2px}
-  .tb-right{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
-  .upd{
-    font-size:12.5px;color:var(--muted);border:1px solid var(--line2);border-radius:999px;
-    padding:5px 12px;white-space:nowrap
+  .ttl{
+    font-size:23px;font-weight:700;line-height:1.05;letter-spacing:.02em;
+    color:var(--acc2)
+  }
+  .sub{font-size:11.5px;color:var(--muted);letter-spacing:.16em;text-transform:uppercase;margin-top:4px}
+  .tb-right{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+  .upd{                                  /* badge biglietto, niente rotazioni */
+    display:inline-block;font-size:12.5px;color:var(--muted);
+    padding:5px 12px 5px 17px;
+    border:1px solid var(--line2);border-left:1px dashed var(--line2);
+    border-radius:6px;background:var(--bg2);
+    white-space:nowrap
   }
   .upd b{color:var(--text);font-weight:600}
-  .upd.stale{color:var(--gold2);border-color:#8a6d2a;background:rgba(227,179,90,.1)}
+  .upd.stale{color:#ecc069;border-color:#8a6d2a;background:rgba(217,166,72,.1)}
   .rbtn{
     font-size:17px;line-height:1;border:1px solid var(--line2);border-radius:10px;background:var(--bg2);
     color:var(--text);padding:7px 11px;cursor:pointer;transition:.15s;font-family:inherit
   }
-  .rbtn:hover{border-color:var(--gold);color:var(--gold2)}
+  .rbtn:hover{border-color:var(--acc);color:var(--acc2)}
   .rbtn:disabled{opacity:.5;cursor:wait}
   @keyframes spin{to{transform:rotate(360deg)}}
   .rbtn.spin span{display:inline-block;animation:spin .9s linear infinite}
   .staleline{
-    display:none;font-size:12.5px;color:var(--gold2);background:rgba(227,179,90,.08);
-    border-bottom:1px solid rgba(227,179,90,.25);padding:6px 22px
+    display:none;font-size:12.5px;color:#ecc069;background:rgba(217,166,72,.08);
+    border-bottom:1px solid rgba(217,166,72,.25);padding:6px 22px
   }
   .filmstrip{
     height:9px;
-    background:repeating-linear-gradient(90deg,rgba(255,255,255,.15) 0 8px,transparent 8px 23px),#1b1f28;
+    background:repeating-linear-gradient(90deg,rgba(111,184,230,.16) 0 8px,transparent 8px 23px),#141a22;
     border-top:1px solid #000;border-bottom:1px solid #000;
   }
 
   /* ---------- toolbar ---------- */
   .toolbar{
-    position:sticky;top:0;z-index:50;background:rgba(13,15,19,.92);backdrop-filter:blur(10px);
+    position:sticky;top:0;z-index:50;background:rgba(10,14,19,.92);backdrop-filter:blur(10px);
     border-bottom:1px solid var(--line);padding:9px 22px 8px
   }
   .tb-row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;max-width:1180px;margin:0 auto}
-  .tb-label{font-size:10.5px;text-transform:uppercase;letter-spacing:.12em;color:var(--faint)}
-  .chips{display:flex;flex-wrap:wrap;gap:5px}
-  .chip{
-    border:1px solid var(--line2);border-radius:999px;background:transparent;color:var(--muted);
-    padding:4px 11px;font-size:12.5px;cursor:pointer;transition:.15s;font-family:inherit
-  }
-  .chip:hover{border-color:var(--gold);color:var(--gold2)}
-  .chip.on{background:var(--gold);border-color:var(--gold);color:#15130c;font-weight:700}
   .vo-toggle{
     display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--muted);cursor:pointer;
     border:1px solid var(--line2);border-radius:999px;padding:4px 11px;user-select:none
   }
-  .vo-toggle input{accent-color:var(--gold);margin:0}
-  .vo-toggle.on{color:var(--gold2);border-color:#8a6d2a;background:rgba(227,179,90,.1)}
+  .vo-toggle input{accent-color:var(--acc);margin:0}
+  .vo-toggle.on{color:var(--acc2);border-color:#2c5c7c;background:rgba(111,184,230,.12)}
   .search{
     margin-left:auto;display:flex;align-items:center;gap:7px;
     border:1px solid var(--line2);border-radius:999px;padding:5px 12px;background:var(--card)
@@ -89,7 +93,7 @@
   .search input::placeholder{color:var(--faint)}
   .legendline{max-width:1180px;margin:7px auto 0;font-size:11.5px;color:var(--faint)}
 
-  main{max-width:1180px;margin:0 auto;padding:18px 22px 10px}
+  main{max-width:1180px;margin:0 auto;padding:18px 22px 26px}
 
   /* ---------- V.O. pill ---------- */
   .vo{
@@ -108,14 +112,17 @@
     font-family:inherit;text-align:left;transition:.15s
   }
   .cine-head:hover{background:var(--card2)}
-  .ch-name{font-size:19px;font-weight:700}
-  .ch-info{font-size:12.5px;color:var(--muted);margin-top:2px}
+  .ch-eyebrow{
+    font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--faint);margin-bottom:3px
+  }
+  .ch-name{font-size:19px;font-weight:700;line-height:1.15}
+  .ch-info{font-size:12.5px;color:var(--muted);margin-top:4px}
   .ch-side{display:flex;align-items:center;gap:10px;flex-shrink:0}
   .ch-count{font-size:12px;color:var(--faint);white-space:nowrap}
   .chev{
     display:inline-block;color:var(--faint);transition:transform .18s;font-size:13px;width:18px;text-align:center
   }
-  .cine.open .cine-head .chev, .xrow.open .xr-head .chev{transform:rotate(90deg);color:var(--gold)}
+  .cine.open .cine-head .chev, .xrow.open .xr-head .chev{transform:rotate(90deg);color:var(--acc)}
   .cine-body{display:none;border-top:1px dashed var(--line)}
   .cine.open .cine-body{display:block}
   .cine-links{
@@ -124,7 +131,7 @@
   }
   .cine-links span{display:inline-flex;gap:6px;align-items:center}
   .cine-links a{color:var(--muted)}
-  .cine-links a:hover{color:var(--gold2)}
+  .cine-links a:hover{color:var(--acc2)}
   .cine-note{padding:8px 18px;font-size:12px;color:var(--faint);border-bottom:1px dashed var(--line)}
   .emptynote{display:none;padding:14px 18px;font-size:13px;color:var(--faint)}
 
@@ -138,9 +145,20 @@
   .fc.hide{display:none}
   .fc-top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
   .fc-poster{flex:0 0 54px;width:54px;height:80px;object-fit:cover;border-radius:6px;border:1px solid var(--line2);background:var(--bg)}
+  .posterwrap{position:relative;flex:0 0 54px;width:54px;height:80px}
+  .posterwrap .fc-poster{position:absolute;inset:0}
+  .fc-poster.ph{                                 /* locandina assente: fotogramma di pellicola */
+    position:relative;display:flex;align-items:center;justify-content:center;
+    border-radius:6px;
+    background:
+      repeating-linear-gradient(180deg,transparent 0 5px,#222b36 5px 10px) left/7px 100% no-repeat,
+      repeating-linear-gradient(180deg,transparent 0 5px,#222b36 5px 10px) right/7px 100% no-repeat,
+      linear-gradient(180deg,#141a22,#0e1319);
+    font-family:Arial,Helvetica,sans-serif;font-size:18px;color:#5f7d99;letter-spacing:.02em
+  }
   .ft{font-size:17.5px;font-weight:700;line-height:1.25;font-family:inherit;margin:0}
   .ft a{color:var(--text)}
-  .ft a:hover{color:var(--gold2)}
+  .ft a:hover{color:var(--acc2)}
   .f-orig{font-size:11.5px;color:var(--faint);font-style:italic;margin-top:2px}
   .fm{font-size:12px;color:var(--muted);line-height:1.6}
   .fm b{color:var(--text);font-weight:600}
@@ -159,19 +177,19 @@
     display:inline-flex;gap:6px;align-items:baseline
   }
   .srow .venue-tag{font-weight:400;color:var(--faint)}
-  .srow.today .dl{color:var(--gold)}
-  .oggi{background:var(--gold);color:#15130c;border-radius:4px;padding:0 4px;font-size:9.5px;font-weight:800}
+  .srow.today .dl{color:var(--acc2)}
+  .oggi{background:var(--velvet);color:#f6ede4;border-radius:4px;padding:0 4px;font-size:9.5px;font-weight:800;letter-spacing:.04em}
   .ts{display:flex;flex-wrap:wrap;gap:5px}
   .t{
     font-variant-numeric:tabular-nums;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
     font-size:12.5px;background:var(--bg);border:1px solid var(--line2);border-radius:6px;padding:2px 8px;
     color:var(--text);cursor:default
   }
-  a.t:hover{border-color:var(--gold);color:var(--gold2);text-decoration:none}
-  .srow.today .t{border-color:#6f5a2c;background:rgba(227,179,90,.1);color:var(--gold2)}
+  a.t:hover{border-color:var(--acc);color:var(--acc2);text-decoration:none}
+  .srow.today .t{border-color:#2c5c7c;background:rgba(111,184,230,.10);color:var(--acc2)}
   .t.tbd{border-style:dashed;color:var(--faint);font-family:inherit;font-size:11.5px}
   .flink{display:inline-block;font-size:11.5px;color:var(--faint);margin-top:4px}
-  .flink:hover{color:var(--gold2)}
+  .flink:hover{color:var(--acc2)}
 
   /* extras (eventi / prossimamente / prevendita) */
   .xrow{border-top:1px dashed var(--line)}
@@ -179,24 +197,15 @@
     display:flex;align-items:center;gap:8px;padding:9px 18px;cursor:pointer;font-size:12.5px;
     color:var(--muted);font-weight:600;transition:.12s
   }
-  .xr-head:hover{background:var(--card2);color:var(--gold2)}
+  .xr-head:hover{background:var(--card2);color:var(--acc2)}
   .xr-body{display:none;padding:2px 18px 14px}
   .xrow.open .xr-body{display:block}
   .ev{
-    border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:8px;background:var(--bg2);
+    border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:8px;background:var(--bg2);
     padding:8px 12px;font-size:12.5px;line-height:1.5;margin-bottom:6px
   }
   .ev b{color:var(--text)}
-  .ev .when{color:var(--gold2);font-size:11.5px;font-weight:700}
-
-  /* ---------- footer ---------- */
-  footer{
-    margin-top:34px;border-top:1px solid var(--line);padding:22px;background:var(--bg2);
-    font-size:12.5px;color:var(--muted)
-  }
-  footer .inner{max-width:1180px;margin:0 auto}
-  footer p{margin:5px 0}
-  .src-list{display:flex;flex-wrap:wrap;gap:5px 16px;margin-top:6px}
+  .ev .when{color:var(--acc2);font-size:11.5px;font-weight:700}
 
   @media (max-width:640px){
     .search{margin-left:0}
@@ -211,15 +220,14 @@
 
 <header class="topbar">
   <div class="tb-left">
-    <span class="logo">🎬</span>
     <div>
-      <div class="ttl serif">Cinema a Milano</div>
+      <div class="ttl">Cinema a Milano</div>
       <div class="sub" id="cines-sub"></div>
     </div>
   </div>
   <div class="tb-right">
     <span class="upd" id="upd-badge"></span>
-    <button class="rbtn" id="refresh-btn" title="Ricarica gli ultimi dati generati dallo script (si aggiorna da solo alle 08:10 e alle 17:40)"><span>⟳</span></button>
+    <button class="rbtn" id="refresh-btn" aria-label="Aggiorna i dati" title="Ricarica gli ultimi dati generati dallo script (in cloud 3 volte al giorno)"><span>⟳</span></button>
   </div>
 </header>
 <div class="staleline" id="staleline"></div>
@@ -227,36 +235,20 @@
 
 <div class="toolbar">
   <div class="tb-row">
-    <span class="tb-label">Giorno</span>
-    <div class="chips" id="day-chips"></div>
     <label class="vo-toggle" id="vo-toggle"><input type="checkbox" id="vo-only"> solo V.O.</label>
-    <div class="search"><span aria-hidden="true">🔍</span><input id="q" type="search" placeholder="cerca un film…" autocomplete="off"></div>
+    <div class="search"><span aria-hidden="true">🔍</span><input id="q" type="search" placeholder="cerca un film…" autocomplete="off" aria-label="Cerca un film"></div>
   </div>
   <div class="legendline">V.O. = proiettato in lingua originale (di norma sottotitolato in italiano, passa sopra la pill per i dettagli) — senza pill è in italiano o doppiato · ⟳ ricarica i dati</div>
 </div>
 
 <main id="cinemas"></main>
 
-<footer>
-  <div class="inner">
-    <p><b>cinema a milano</b> · dati raccolti automaticamente dai siti dei cinema (Beltrade iCal · API spazioCinema · Colosseo HTML · MyMovies per i sottotitoli delle proiezioni in inglese).
-    Gli orari possono cambiare: verifica sul sito del cinema prima di uscire.</p>
-    <p class="src-list">
-      <a href="https://bandhi.it/bah/beltrade/" target="_blank" rel="noopener">Beltrade ↗</a>
-      <a href="https://www.spaziocinema.info/milano" target="_blank" rel="noopener">Anteo Palazzo ↗</a>
-      <a href="https://www.ilregnodelcinema.com/colosseo/" target="_blank" rel="noopener">Colosseo ↗</a>
-      <a href="https://www.mymovies.it/cinema/milano/" target="_blank" rel="noopener">MyMovies Milano ↗</a>
-    </p>
-    <p style="color:var(--faint);font-size:11.5px">Aggiornamento manuale: Terminale → <code>python3 ~/cinema-milano/update.py</code>, poi premi ⟳ o riapri la pagina.</p>
-  </div>
-</footer>
-
 <script>
 'use strict';
 
 /* copia di riserva dei dati, tenuta aggiornata da update.py dentro index.html */
 const EMBEDDED = {
- "updated": "13/11/2026 19:29",
+ "updated": "13/11/2026 19:34",
  "updatedLong": "venerdì 13 novembre 2026",
  "today": "2026-11-13",
  "days": [
@@ -3746,8 +3738,14 @@ const EMBEDDED = {
  "errors": null
 }; /*EMBED-DATA*/
 
+const EYEBROWS = {
+  beltrade: 'cinema d\u2019essai \u00b7 repertorio \u00b7 quasi tutto in v.o.',
+  anteo: 'nove sale \u00b7 piazza xxv aprile \u00b7 dal 1990',
+  colosseo: 'prima visione \u00b7 anche in v.o. inglese'
+};
+
 /* ============================== stato ============================== */
-const state = {day: null, vo: false, q: ''};
+const state = {vo: false, q: ''};
 let CURRENT = null;
 const $ = s => document.querySelector(s);
 const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -3759,11 +3757,6 @@ const dayInfo = k => (CURRENT.days || []).find(d => d.key === k);
 function slotDays(slot){
   const days = Object.keys(slot.shows || {}).filter(k => (slot.shows[k]||[]).length);
   return days.concat(slot.tbd || []);
-}
-function filmDays(film){
-  const set = new Set();
-  (film.slots || []).forEach(s => slotDays(s).forEach(d => set.add(d)));
-  return [...set];
 }
 function voTooltip(film){
   const labels = [];
@@ -3820,11 +3813,12 @@ function filmCardHTML(cinema, film){
   if (film.cast) meta.push(esc(film.cast));
   if (film.meta) meta.push(esc(film.meta));
   if (film.genre) meta.push(esc(film.genre));
+  const initial = esc((film.title || '★')[0]);
+  const ph = '<div class="fc-poster ph" aria-hidden="true">' + initial + '</div>';
   const poster = film.poster
-    ? '<img class="fc-poster" loading="lazy" src="' + esc(film.poster) + '" alt="" onerror="this.style.display=\'none\'">'
-    : '';
+    ? '<div class="posterwrap">' + ph + '<img class="fc-poster" loading="lazy" src="' + esc(film.poster) + '" alt="" onerror="this.remove()"></div>'
+    : ph;
   return '<article class="fc" id="film-' + cinema.id + '-' + film.id + '"' +
-      ' data-days="' + filmDays(film).join(',') + '"' +
       ' data-vo="' + (vo ? 1 : 0) + '"' +
       ' data-q="' + esc(norm([film.title, film.orig, film.dir, film.cast].filter(Boolean).join(' '))) + '">' +
     '<div class="fc-top">' + poster +
@@ -3851,12 +3845,7 @@ function cinemaHTML(cinema){
     }
     if (vo) nVO++;
   }
-  let links = [];
-  if (cinema.address) links.push('<span>📍 <a href="' + cinema.map + '" target="_blank" rel="noopener">' + esc(cinema.address) + '</a></span>');
-  if (cinema.transport) links.push('<span>🚇 ' + esc(cinema.transport) + '</span>');
-  if (cinema.phone) links.push('<span>☎ ' + esc(cinema.phone) + '</span>');
-  links.push('<span>🎟 <a href="' + cinema.tickets + '" target="_blank" rel="noopener">biglietti</a></span>');
-  links.push('<span>↗ <a href="' + cinema.site + '" target="_blank" rel="noopener">sito</a></span>');
+  const links = ['<a href="' + cinema.site + '" target="_blank" rel="noopener">sito ↗</a>'];
   const extras = cinema.extra || [];
   const extraHTML = extras.length
     ? '<div class="xrow"><div class="xr-head"><span class="chev">▸</span> 📅 ' +
@@ -3864,8 +3853,9 @@ function cinemaHTML(cinema){
       '<div class="xr-body">' + extras.map(x => x.items.map(i => '<div class="ev">' + i + '</div>').join('')).join('') + '</div></div>'
     : '';
   return '<section class="cine" id="cinema-' + cinema.id + '">' +
-    '<button class="cine-head">' +
-      '<div><div class="ch-name">' + esc(cinema.name) + '</div>' +
+    '<button class="cine-head" aria-expanded="false">' +
+      '<div><div class="ch-eyebrow">' + esc(EYEBROWS[cinema.id] || '') + '</div>' +
+      '<div class="ch-name">' + esc(cinema.name) + '</div>' +
       '<div class="ch-info">' + esc(cinema.address || cinema.tagline) + '</div></div>' +
       '<div class="ch-side"><span class="ch-count">' + films.length + ' film · ' + nShows + ' spett.' +
         (nVO ? ' · ' + nVO + ' in v.o.' : '') + '</span><span class="chev">▸</span></div>' +
@@ -3890,35 +3880,25 @@ function renderAll(data){
 
   main.addEventListener('click', e => {
     const head = e.target.closest('.cine-head');
-    if (head){ head.parentElement.classList.toggle('open'); return; }
+    if (head){
+      const sec = head.parentElement;
+      const open = sec.classList.toggle('open');
+      head.setAttribute('aria-expanded', open);
+      return;
+    }
     const xr = e.target.closest('.xr-head');
     if (xr){ xr.parentElement.classList.toggle('open'); }
   });
 
-  buildDayChips();
   updateUpdBadge();
   applyFilters();
-}
-
-function buildDayChips(){
-  const dc = $('#day-chips');
-  dc.innerHTML = '<button class="chip on" data-day="">settimana</button>' +
-    (CURRENT.days || []).map(d => '<button class="chip" data-day="' + d.key + '">' + d.short +
-      (d.today ? ' ·oggi' : '') + '</button>').join('');
-  dc.onclick = e => {
-    const b = e.target.closest('.chip'); if (!b) return;
-    state.day = b.dataset.day || null;
-    [...dc.children].forEach(x => x.classList.toggle('on', x === b));
-    applyFilters();
-  };
 }
 
 function applyFilters(){
   document.querySelectorAll('.fc').forEach(r => {
     const voOK = !state.vo || r.dataset.vo === '1';
     const qOK = !state.q || (r.dataset.q || '').includes(state.q);
-    const dayOK = !state.day || (r.dataset.days || '').split(',').includes(state.day);
-    r.classList.toggle('hide', !(voOK && qOK && dayOK));
+    r.classList.toggle('hide', !(voOK && qOK));
   });
   document.querySelectorAll('.cine').forEach(sec => {
     const visible = sec.querySelectorAll('.fc:not(.hide)').length;

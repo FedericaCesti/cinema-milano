@@ -1,5 +1,5 @@
 window.DATA = {
- "updated": "13/11/2026 19:29",
+ "updated": "13/11/2026 19:34",
  "updatedLong": "venerdì 13 novembre 2026",
  "today": "2026-11-13",
  "days": [
