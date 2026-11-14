@@ -1,19 +1,13 @@
 window.DATA = {
- "updated": "13/11/2026 19:34",
- "updatedLong": "venerdì 13 novembre 2026",
- "today": "2026-11-13",
+ "updated": "14/11/2026 01:51",
+ "updatedLong": "sabato 14 novembre 2026",
+ "today": "2026-11-14",
  "days": [
-  {
-   "key": "2026-11-13",
-   "short": "Ven 13",
-   "long": "venerdì 13 novembre 2026",
-   "today": true
-  },
   {
    "key": "2026-11-14",
    "short": "Sab 14",
    "long": "sabato 14 novembre 2026",
-   "today": false
+   "today": true
   },
   {
    "key": "2026-11-15",
@@ -44,6 +38,12 @@ window.DATA = {
    "short": "Gio 19",
    "long": "giovedì 19 novembre 2026",
    "today": false
+  },
+  {
+   "key": "2026-11-20",
+   "short": "Ven 20",
+   "long": "venerdì 20 novembre 2026",
+   "today": false
   }
  ],
  "cinemas": [
@@ -61,98 +61,6 @@ window.DATA = {
    "keepVisible": false,
    "noDayText": "Nessuno spettacolo in questo giorno.",
    "films": [
-    {
-     "id": "wild-horse-nine",
-     "title": "WILD HORSE NINE",
-     "dir": "Martin McDonagh",
-     "cast": "John Malkovich, Sam Rockwell e Steve Buscemi",
-     "meta": "Regno Unito · Stati Uniti · Cile · 2026 · 101′",
-     "genre": null,
-     "url": "https://bandhi.it/bah/beltrade/production/wild-horse-nine/",
-     "poster": null,
-     "slots": [
-      {
-       "lang": {
-        "cat": "eng",
-        "audio": "V.O. inglese",
-        "sub": "sott. ITA"
-       },
-       "shows": {
-        "2026-11-13": [
-         "19:20"
-        ],
-        "2026-11-14": [
-         "21:40"
-        ],
-        "2026-11-15": [
-         "19:30"
-        ],
-        "2026-11-16": [
-         "10:40"
-        ],
-        "2026-11-17": [
-         "21:40"
-        ],
-        "2026-11-18": [
-         "17:30"
-        ]
-       },
-       "tbd": []
-      }
-     ]
-    },
-    {
-     "id": "mustang",
-     "title": "Mustang",
-     "dir": "Kasia Smutniak",
-     "cast": "Kasia Smutniak, Sophie Taricone, Pietro Taricone",
-     "meta": "Italia · 2026 · 105′",
-     "genre": null,
-     "url": "https://bandhi.it/bah/beltrade/production/mustang-2/",
-     "poster": null,
-     "slots": [
-      {
-       "lang": {
-        "cat": "ita",
-        "audio": "In italiano"
-       },
-       "shows": {
-        "2026-11-13": [
-         "21:30"
-        ]
-       },
-       "tbd": []
-      }
-     ]
-    },
-    {
-     "id": "twin-peaks-stag-03-ep-13-e-14",
-     "title": "TWIN PEAKS – STAG. 03 EP 13 e 14",
-     "dir": null,
-     "cast": "Kyle MacLachlan",
-     "meta": "Stati Uniti · 2017 · 58 a episodio",
-     "genre": null,
-     "url": "https://bandhi.it/bah/beltrade/production/twin-peaks-stag-03-ep-13-e-14/",
-     "poster": null,
-     "slots": [
-      {
-       "lang": {
-        "cat": "eng",
-        "audio": "V.O. inglese",
-        "sub": "sott. ITA"
-       },
-       "shows": {
-        "2026-11-13": [
-         "23:50"
-        ],
-        "2026-11-17": [
-         "19:30"
-        ]
-       },
-       "tbd": []
-      }
-     ]
-    },
     {
      "id": "shaun-vita-da-pecora-operazione-z-u-c-c-a",
      "title": "SHAUN, VITA DA PECORA – OPERAZIONE Z.U.C.C.A.",
@@ -311,6 +219,43 @@ window.DATA = {
      ]
     },
     {
+     "id": "wild-horse-nine",
+     "title": "WILD HORSE NINE",
+     "dir": "Martin McDonagh",
+     "cast": "John Malkovich, Sam Rockwell e Steve Buscemi",
+     "meta": "Regno Unito · Stati Uniti · Cile · 2026 · 101′",
+     "genre": null,
+     "url": "https://bandhi.it/bah/beltrade/production/wild-horse-nine/",
+     "poster": null,
+     "slots": [
+      {
+       "lang": {
+        "cat": "eng",
+        "audio": "V.O. inglese",
+        "sub": "sott. ITA"
+       },
+       "shows": {
+        "2026-11-14": [
+         "21:40"
+        ],
+        "2026-11-15": [
+         "19:30"
+        ],
+        "2026-11-16": [
+         "10:40"
+        ],
+        "2026-11-17": [
+         "21:40"
+        ],
+        "2026-11-18": [
+         "17:30"
+        ]
+       },
+       "tbd": []
+      }
+     ]
+    },
+    {
      "id": "l-estranea",
      "title": "L’ESTRANEA",
      "dir": "Paolo Strippoli",
@@ -398,6 +343,31 @@ window.DATA = {
      ]
     },
     {
+     "id": "twin-peaks-stag-03-ep-13-e-14",
+     "title": "TWIN PEAKS – STAG. 03 EP 13 e 14",
+     "dir": null,
+     "cast": "Kyle MacLachlan",
+     "meta": "Stati Uniti · 2017 · 58 a episodio",
+     "genre": null,
+     "url": "https://bandhi.it/bah/beltrade/production/twin-peaks-stag-03-ep-13-e-14/",
+     "poster": null,
+     "slots": [
+      {
+       "lang": {
+        "cat": "eng",
+        "audio": "V.O. inglese",
+        "sub": "sott. ITA"
+       },
+       "shows": {
+        "2026-11-17": [
+         "19:30"
+        ]
+       },
+       "tbd": []
+      }
+     ]
+    },
+    {
      "id": "carla-lonzi-dentro-e-fuori-dal-mondo",
      "title": "CARLA LONZI – DENTRO E FUORI DAL MONDO",
      "dir": "Francesca Archibugi",
@@ -467,13 +437,37 @@ window.DATA = {
        ]
       }
      ]
+    },
+    {
+     "id": "twin-peaks-stag-03-ep-15-e-16-dal-20-novembre",
+     "title": "TWIN PEAKS – STAG. 03 EP 15 e 16 – DAL 20 NOVEMBRE",
+     "dir": null,
+     "cast": "Kyle MacLachlan",
+     "meta": "Stati Uniti · 2017 · 58 a episodio",
+     "genre": null,
+     "url": "https://bandhi.it/bah/beltrade/production/twin-peaks-stag-03-ep-15-e-16/",
+     "poster": null,
+     "slots": [
+      {
+       "lang": {
+        "cat": "eng",
+        "audio": "V.O. inglese",
+        "sub": "sott. ITA"
+       },
+       "shows": {
+        "2026-11-20": [
+         "23:50"
+        ]
+       },
+       "tbd": []
+      }
+     ]
     }
    ],
    "extra": [
     {
      "h": "Prossimamente al Beltrade",
      "items": [
-      "<b>TWIN PEAKS – STAG. 03 EP 15 e 16</b> — dal 20/11",
       "<b>ANIMAZIONE IN CORTO - IV ed.</b> — dal 22/11",
       "<b>LA RETE DELLA KEFIAH</b> — dal 25/11",
       "<b>Lorenzo - L&#x27;incredibile avventura di Jovanotti</b> — dal 25/11",
@@ -499,6 +493,65 @@ window.DATA = {
    "cineNote": "In questa pagina solo gli spettacoli della sede di Piazza XXV Aprile (per CityLife, Ariosto e le altre sale del circuito Anteo vedi il sito). Clicca un orario per comprare il biglietto di quello spettacolo.",
    "films": [
     {
+     "id": "naza",
+     "title": "Naza",
+     "orig": null,
+     "dir": "Yuval Abraham E Rachel Szor",
+     "cast": "Rachel Szor, Yuval Abraham",
+     "meta": "Regno Unito · 2026 · 80′ · Documentario",
+     "genre": null,
+     "url": "https://www.spaziocinema.info/film/v-o-sott-ita-naza",
+     "poster": "https://cdn.18tickets.net/ccb/uploads/film/playbill/111522/ec4770c9-9fc4-414a-97c7-b21404d7b9e7.jpg",
+     "plot": "Nel corso di conversazioni segrete sui tetti di tel aviv, di notte, i meccanismi alla base della sistematica e calcolata uccisione di massa di civili palestinesi a gaza…",
+     "age": "10+",
+     "slots": [
+      {
+       "lang": {
+        "cat": "eng",
+        "audio": "V.O. ebraico · inglese",
+        "sub": "sott. ITA"
+       },
+       "shows": {
+        "2026-11-14": [
+         {
+          "t": "13:15",
+          "hall": "De amicis",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/naza_2026/859504#sala"
+         }
+        ],
+        "2026-11-15": [
+         {
+          "t": "13:15",
+          "hall": "De amicis",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/naza_2026/859505#sala"
+         }
+        ],
+        "2026-11-16": [
+         {
+          "t": "13:20",
+          "hall": "Abadan",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/naza_2026/860152#sala"
+         }
+        ],
+        "2026-11-17": [
+         {
+          "t": "13:15",
+          "hall": "De amicis",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/naza_2026/860153#sala"
+         }
+        ],
+        "2026-11-18": [
+         {
+          "t": "13:15",
+          "hall": "De amicis",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/naza_2026/860154#sala"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
      "id": "minotaur-nel-labirinto-del-potere",
      "title": "Minotaur nel labirinto del potere",
      "orig": "minotaure",
@@ -517,13 +570,6 @@ window.DATA = {
         "audio": "In italiano (doppiato)"
        },
        "shows": {
-        "2026-11-13": [
-         {
-          "t": "19:10",
-          "hall": "Obraz",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/minotaur-nel-labirinto-del-potere-minotaure-_2026/859516#sala"
-         }
-        ],
         "2026-11-14": [
          {
           "t": "16:30",
@@ -650,13 +696,6 @@ window.DATA = {
         "sub": "sott. ITA"
        },
        "shows": {
-        "2026-11-13": [
-         {
-          "t": "21:45",
-          "hall": "Astra",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-primetime_2026/859497#sala"
-         }
-        ],
         "2026-11-14": [
          {
           "t": "21:45",
@@ -695,18 +734,6 @@ window.DATA = {
         "sub": "sott. ITA"
        },
        "shows": {
-        "2026-11-13": [
-         {
-          "t": "18:40",
-          "hall": "Abanella",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-la-gradiva_2026-2973e5c9-781b-48e6-8496-24c5560ef039/859494#sala"
-         },
-         {
-          "t": "21:40",
-          "hall": "Abanella",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-la-gradiva_2026-2973e5c9-781b-48e6-8496-24c5560ef039/859495#sala"
-         }
-        ],
         "2026-11-14": [
          {
           "t": "10:00",
@@ -830,13 +857,6 @@ window.DATA = {
         "audio": "In italiano"
        },
        "shows": {
-        "2026-11-13": [
-         {
-          "t": "21:45",
-          "hall": "President",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/l-estranea_2026-7a1d5e14-ab72-4f5d-8f59-e81eaeeb2018/859480#sala"
-         }
-        ],
         "2026-11-14": [
          {
           "t": "13:00",
@@ -927,6 +947,126 @@ window.DATA = {
      ]
     },
     {
+     "id": "il-canto-della-foresta",
+     "title": "Il canto della foresta",
+     "orig": "le chant des forets",
+     "dir": "Vincent Munier",
+     "cast": "Michel Munier, Simon Munier, Vincent Munier",
+     "meta": "Francia · 2025 · 91′ · Documentario",
+     "genre": null,
+     "url": "https://www.spaziocinema.info/film/il-canto-della-foresta-le-chant-des-forets",
+     "poster": "https://cdn.18tickets.net/ccb/uploads/film/playbill/126999/32f4bb78-9abf-481f-a86d-0da33f4b6644.jpg",
+     "plot": "Un nonno, suo figlio e il figlio del figlio: michel, vincent (il regista) e simon. tre maschi di età diverse che condividono l'esperienza, più che consapevoli della sua…",
+     "age": "n/p",
+     "slots": [
+      {
+       "lang": {
+        "cat": "ita",
+        "audio": "In italiano (doppiato)"
+       },
+       "shows": {
+        "2026-11-14": [
+         {
+          "t": "12:20",
+          "hall": "Rubino",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-07ccf0f6-5894-4101-8f39-b4fc7340a313/859543#sala"
+         },
+         {
+          "t": "15:00",
+          "hall": "Obraz",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-07ccf0f6-5894-4101-8f39-b4fc7340a313/859541#sala"
+         }
+        ],
+        "2026-11-15": [
+         {
+          "t": "13:00",
+          "hall": "Nobel",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-6a08fe4b-232a-4548-96f0-9c4babf4952c/858993#sala"
+         },
+         {
+          "t": "15:00",
+          "hall": "Obraz",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-07ccf0f6-5894-4101-8f39-b4fc7340a313/859540#sala"
+         }
+        ],
+        "2026-11-16": [
+         {
+          "t": "14:45",
+          "hall": "Obraz",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-07ccf0f6-5894-4101-8f39-b4fc7340a313/860259#sala"
+         },
+         {
+          "t": "21:40",
+          "hall": "Excelsior",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025/856590#sala"
+         }
+        ],
+        "2026-11-17": [
+         {
+          "t": "12:25",
+          "hall": "President",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-07ccf0f6-5894-4101-8f39-b4fc7340a313/860263#sala"
+         },
+         {
+          "t": "15:00",
+          "hall": "Obraz",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-07ccf0f6-5894-4101-8f39-b4fc7340a313/860260#sala"
+         }
+        ],
+        "2026-11-18": [
+         {
+          "t": "12:20",
+          "hall": "Rubino",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-07ccf0f6-5894-4101-8f39-b4fc7340a313/860262#sala"
+         },
+         {
+          "t": "15:00",
+          "hall": "Obraz",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-07ccf0f6-5894-4101-8f39-b4fc7340a313/860261#sala"
+         }
+        ]
+       }
+      },
+      {
+       "lang": {
+        "cat": "vo",
+        "audio": "V.O. francese",
+        "sub": "sott. ITA"
+       },
+       "shows": {
+        "2026-11-14": [
+         {
+          "t": "16:45",
+          "hall": "Abanella",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-il-canto-della-foresta_2025/860287#sala"
+         }
+        ],
+        "2026-11-15": [
+         {
+          "t": "16:45",
+          "hall": "Abanella",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-il-canto-della-foresta_2025/860288#sala"
+         }
+        ],
+        "2026-11-17": [
+         {
+          "t": "16:45",
+          "hall": "Abanella",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-il-canto-della-foresta_2025/860289#sala"
+         }
+        ],
+        "2026-11-18": [
+         {
+          "t": "17:15",
+          "hall": "Abanella",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-il-canto-della-foresta_2025/860290#sala"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
      "id": "fatherland",
      "title": "Fatherland",
      "orig": null,
@@ -1004,13 +1144,6 @@ window.DATA = {
         "sub": "sott. ITA"
        },
        "shows": {
-        "2026-11-13": [
-         {
-          "t": "20:00",
-          "hall": "De amicis",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/fatherland-v-o-_2026/859500#sala"
-         }
-        ],
         "2026-11-14": [
          {
           "t": "20:00",
@@ -1069,13 +1202,6 @@ window.DATA = {
         "audio": "In italiano"
        },
        "shows": {
-        "2026-11-13": [
-         {
-          "t": "19:30",
-          "hall": "President",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/il-rumore-delle-cose-nuove_2026-f24fda47-4556-4769-a4ea-ead3a4acafa6/859399#sala"
-         }
-        ],
         "2026-11-14": [
          {
           "t": "10:00",
@@ -1099,6 +1225,11 @@ window.DATA = {
          }
         ],
         "2026-11-15": [
+         {
+          "t": "10:00",
+          "hall": "President",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/il-rumore-delle-cose-nuove_2026-f24fda47-4556-4769-a4ea-ead3a4acafa6/862002#sala"
+         },
          {
           "t": "17:20",
           "hall": "Astra",
@@ -1189,18 +1320,6 @@ window.DATA = {
         "audio": "In italiano (doppiato)"
        },
        "shows": {
-        "2026-11-13": [
-         {
-          "t": "18:30",
-          "hall": "Nobel",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/l-essere-amato-el-ser-querido-_2026-44f6bbde-0653-4422-9d4b-57a985accd79/858981#sala"
-         },
-         {
-          "t": "19:10",
-          "hall": "Astra",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/l-essere-amato-el-ser-querido-_2026-15492c65-2ff2-4ee0-9aa0-0068d59d7b60/859520#sala"
-         }
-        ],
         "2026-11-14": [
          {
           "t": "10:00",
@@ -1280,13 +1399,6 @@ window.DATA = {
         "sub": "sott. ITA"
        },
        "shows": {
-        "2026-11-13": [
-         {
-          "t": "21:45",
-          "hall": "Obraz",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/l-essere-amato-el-ser-querido-_2026-2f9e213a-46e5-4ee6-ace4-ee499e0ac953/859420#sala"
-         }
-        ],
         "2026-11-14": [
          {
           "t": "12:00",
@@ -1390,13 +1502,6 @@ window.DATA = {
         "audio": "In italiano"
        },
        "shows": {
-        "2026-11-13": [
-         {
-          "t": "21:45",
-          "hall": "De amicis",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/je-so-pazzo_2026-d00ab3b4-33cb-4c4c-96cd-0ef018a0075b/859343#sala"
-         }
-        ],
         "2026-11-14": [
          {
           "t": "21:45",
@@ -1456,13 +1561,6 @@ window.DATA = {
         "sub": "sott. ITA"
        },
        "shows": {
-        "2026-11-13": [
-         {
-          "t": "19:40",
-          "hall": "Astoria",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-look-back_2026/861606#sala"
-         }
-        ],
         "2026-11-14": [
          {
           "t": "10:00",
@@ -1551,13 +1649,6 @@ window.DATA = {
         "audio": "In italiano (doppiato)"
        },
        "shows": {
-        "2026-11-13": [
-         {
-          "t": "21:45",
-          "hall": "Astoria",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/look-back-_2026-04750a07-ae3d-420e-804c-d2f042c34d0f/859326#sala"
-         }
-        ],
         "2026-11-14": [
          {
           "t": "13:00",
@@ -1636,661 +1727,6 @@ window.DATA = {
           "t": "21:30",
           "hall": "De amicis",
           "link": "https://anteo.spaziocinema.18tickets.it/film/look-back-_2026-04750a07-ae3d-420e-804c-d2f042c34d0f/860229#sala"
-         }
-        ]
-       }
-      }
-     ]
-    },
-    {
-     "id": "wild-horse-nine",
-     "title": "Wild Horse Nine",
-     "orig": null,
-     "dir": "M. Mcdonagh",
-     "cast": "S. Rockwell, S. Buscemi, P. Posey",
-     "meta": "Regno Unito · 2026 · 118′ · Commedia",
-     "genre": null,
-     "url": "https://www.spaziocinema.info/film/v-o-sott-ita-wild-horse-nine",
-     "poster": "https://cdn.18tickets.net/ccb/uploads/film/playbill/125679/0e0ccc0a-0564-40e0-9e61-7c14a27cffb1.jpg",
-     "plot": "Il film è ambientato alla vigilia del colpo di stato cileno del 1973. due agenti della cia, chris e lee, vengono inviati da santiago all’isola di pasqua. tra segreti,…",
-     "age": "10+",
-     "slots": [
-      {
-       "lang": {
-        "cat": "eng",
-        "audio": "V.O. inglese",
-        "sub": "sott. ITA"
-       },
-       "shows": {
-        "2026-11-13": [
-         {
-          "t": "21:45",
-          "hall": "Excelsior",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-404dad21-a6e6-4504-8b17-3c520efd67c3/859301#sala"
-         }
-        ],
-        "2026-11-14": [
-         {
-          "t": "12:30",
-          "hall": "Excelsior",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-404dad21-a6e6-4504-8b17-3c520efd67c3/859302#sala"
-         },
-         {
-          "t": "17:00",
-          "hall": "Excelsior",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-404dad21-a6e6-4504-8b17-3c520efd67c3/859303#sala"
-         },
-         {
-          "t": "18:30",
-          "hall": "Nobel",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-315b022f-ee9d-4291-b0d0-91373b46b419/858944#sala"
-         },
-         {
-          "t": "21:30",
-          "hall": "Excelsior",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-404dad21-a6e6-4504-8b17-3c520efd67c3/859304#sala"
-         }
-        ],
-        "2026-11-15": [
-         {
-          "t": "17:15",
-          "hall": "Excelsior",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-404dad21-a6e6-4504-8b17-3c520efd67c3/859306#sala"
-         },
-         {
-          "t": "20:30",
-          "hall": "Nobel",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-315b022f-ee9d-4291-b0d0-91373b46b419/858950#sala"
-         },
-         {
-          "t": "21:45",
-          "hall": "Excelsior",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-404dad21-a6e6-4504-8b17-3c520efd67c3/859307#sala"
-         }
-        ],
-        "2026-11-16": [
-         {
-          "t": "12:45",
-          "hall": "Excelsior",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-404dad21-a6e6-4504-8b17-3c520efd67c3/860183#sala"
-         },
-         {
-          "t": "17:15",
-          "hall": "Excelsior",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-404dad21-a6e6-4504-8b17-3c520efd67c3/860184#sala"
-         },
-         {
-          "t": "21:40",
-          "hall": "Rubino",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-404dad21-a6e6-4504-8b17-3c520efd67c3/860191#sala"
-         }
-        ],
-        "2026-11-17": [
-         {
-          "t": "12:45",
-          "hall": "Obraz",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-404dad21-a6e6-4504-8b17-3c520efd67c3/860190#sala"
-         },
-         {
-          "t": "17:00",
-          "hall": "Excelsior",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-404dad21-a6e6-4504-8b17-3c520efd67c3/860185#sala"
-         },
-         {
-          "t": "20:00",
-          "hall": "Nobel",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-315b022f-ee9d-4291-b0d0-91373b46b419/860353#sala"
-         },
-         {
-          "t": "21:30",
-          "hall": "Excelsior",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-404dad21-a6e6-4504-8b17-3c520efd67c3/860186#sala"
-         }
-        ],
-        "2026-11-18": [
-         {
-          "t": "12:30",
-          "hall": "Excelsior",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-404dad21-a6e6-4504-8b17-3c520efd67c3/860187#sala"
-         },
-         {
-          "t": "16:50",
-          "hall": "Obraz",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-404dad21-a6e6-4504-8b17-3c520efd67c3/860189#sala"
-         },
-         {
-          "t": "21:30",
-          "hall": "Excelsior",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-404dad21-a6e6-4504-8b17-3c520efd67c3/860188#sala"
-         }
-        ]
-       }
-      },
-      {
-       "lang": {
-        "cat": "ita",
-        "audio": "In italiano (doppiato)"
-       },
-       "shows": {
-        "2026-11-13": [
-         {
-          "t": "19:30",
-          "hall": "Excelsior",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-9a4c11f3-5920-4421-9817-dd68613d6ff0/859316#sala"
-         },
-         {
-          "t": "21:15",
-          "hall": "Nobel",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-1bfd9fed-dc88-4c19-8ca6-db71d2f0c0ec/858935#sala"
-         }
-        ],
-        "2026-11-14": [
-         {
-          "t": "10:15",
-          "hall": "Excelsior",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-9a4c11f3-5920-4421-9817-dd68613d6ff0/859317#sala"
-         },
-         {
-          "t": "14:45",
-          "hall": "Excelsior",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-9a4c11f3-5920-4421-9817-dd68613d6ff0/859318#sala"
-         },
-         {
-          "t": "19:15",
-          "hall": "Excelsior",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-9a4c11f3-5920-4421-9817-dd68613d6ff0/859319#sala"
-         }
-        ],
-        "2026-11-15": [
-         {
-          "t": "10:30",
-          "hall": "Abadan",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-9a4c11f3-5920-4421-9817-dd68613d6ff0/859414#sala"
-         },
-         {
-          "t": "15:00",
-          "hall": "Excelsior",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-9a4c11f3-5920-4421-9817-dd68613d6ff0/859320#sala"
-         },
-         {
-          "t": "18:00",
-          "hall": "Nobel",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-1bfd9fed-dc88-4c19-8ca6-db71d2f0c0ec/858938#sala"
-         },
-         {
-          "t": "19:30",
-          "hall": "Excelsior",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-9a4c11f3-5920-4421-9817-dd68613d6ff0/859321#sala"
-         }
-        ],
-        "2026-11-16": [
-         {
-          "t": "10:00",
-          "hall": "Excelsior",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-9a4c11f3-5920-4421-9817-dd68613d6ff0/860192#sala"
-         },
-         {
-          "t": "15:00",
-          "hall": "Excelsior",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-9a4c11f3-5920-4421-9817-dd68613d6ff0/860193#sala"
-         },
-         {
-          "t": "19:25",
-          "hall": "Astoria",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-9a4c11f3-5920-4421-9817-dd68613d6ff0/860199#sala"
-         }
-        ],
-        "2026-11-17": [
-         {
-          "t": "14:45",
-          "hall": "Excelsior",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-9a4c11f3-5920-4421-9817-dd68613d6ff0/860194#sala"
-         },
-         {
-          "t": "19:15",
-          "hall": "Excelsior",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-9a4c11f3-5920-4421-9817-dd68613d6ff0/860195#sala"
-         }
-        ],
-        "2026-11-18": [
-         {
-          "t": "10:15",
-          "hall": "Excelsior",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-9a4c11f3-5920-4421-9817-dd68613d6ff0/860197#sala"
-         },
-         {
-          "t": "14:45",
-          "hall": "Excelsior",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-9a4c11f3-5920-4421-9817-dd68613d6ff0/860196#sala"
-         },
-         {
-          "t": "19:15",
-          "hall": "Astra",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-9a4c11f3-5920-4421-9817-dd68613d6ff0/860198#sala"
-         }
-        ]
-       }
-      }
-     ]
-    },
-    {
-     "id": "dio-ride",
-     "title": "Dio ride",
-     "orig": null,
-     "dir": "Giovanni Veronesi",
-     "cast": "Pierfrancesco Favino, Silvio Orlando, Alma Noce",
-     "meta": "Italia · 2026 · 114′ · Commedia, Dramma",
-     "genre": null,
-     "url": "https://www.spaziocinema.info/film/dio-ride",
-     "poster": "https://cdn.18tickets.net/ccb/uploads/film/playbill/123931/81b8aede-e5c7-45e3-b3af-8edb5aea3876.jpg",
-     "plot": "Nel cuore del ‘600, frate leopoldo da casamacchia racconta il vangelo con una gioia e una libertà mai viste prima. mentre la chiesa parla in latino, lui parla alla gente…",
-     "age": "10+",
-     "slots": [
-      {
-       "lang": {
-        "cat": "ita",
-        "audio": "In italiano"
-       },
-       "shows": {
-        "2026-11-13": [
-         {
-          "t": "19:30",
-          "hall": "Abadan",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/859464#sala"
-         },
-         {
-          "t": "21:45",
-          "hall": "Abadan",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/859465#sala"
-         }
-        ],
-        "2026-11-14": [
-         {
-          "t": "15:00",
-          "hall": "Abadan",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/859466#sala"
-         },
-         {
-          "t": "17:15",
-          "hall": "Abadan",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/859467#sala"
-         },
-         {
-          "t": "19:30",
-          "hall": "Abadan",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/859468#sala"
-         },
-         {
-          "t": "21:45",
-          "hall": "Abadan",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/859469#sala"
-         }
-        ],
-        "2026-11-15": [
-         {
-          "t": "15:00",
-          "hall": "Abadan",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/859470#sala"
-         },
-         {
-          "t": "17:15",
-          "hall": "Abadan",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/859471#sala"
-         },
-         {
-          "t": "19:30",
-          "hall": "Abadan",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/859472#sala"
-         },
-         {
-          "t": "21:45",
-          "hall": "Abadan",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/859473#sala"
-         }
-        ],
-        "2026-11-16": [
-         {
-          "t": "15:00",
-          "hall": "Abadan",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/860174#sala"
-         },
-         {
-          "t": "17:15",
-          "hall": "Abadan",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/860175#sala"
-         },
-         {
-          "t": "19:30",
-          "hall": "Abadan",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/860176#sala"
-         }
-        ],
-        "2026-11-17": [
-         {
-          "t": "14:40",
-          "hall": "Abadan",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/860178#sala"
-         },
-         {
-          "t": "17:30",
-          "hall": "Rubino",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/860180#sala"
-         },
-         {
-          "t": "19:30",
-          "hall": "Abadan",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/860179#sala"
-         }
-        ],
-        "2026-11-18": [
-         {
-          "t": "14:45",
-          "hall": "Astra",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/860181#sala"
-         },
-         {
-          "t": "17:00",
-          "hall": "Astra",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/860182#sala"
-         },
-         {
-          "t": "21:40",
-          "hall": "Rubino",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/860322#sala"
-         }
-        ]
-       }
-      }
-     ]
-    },
-    {
-     "id": "se-domani-non-torno",
-     "title": "Se domani non torno",
-     "orig": null,
-     "dir": "P. Randi",
-     "cast": "F. Timi, S. Martini, T. Bossi",
-     "meta": "Italia · 2026 · 106′ · Biografico",
-     "genre": null,
-     "url": "https://www.spaziocinema.info/film/se-domani-non-torno",
-     "poster": "https://cdn.18tickets.net/ccb/uploads/film/playbill/125614/5f2314b7-eb92-4145-8d5b-0fff5368847a.jpg",
-     "plot": "Gino cecchettin è un padre vedovo con tre figli che accudisce con amore, in sostituzione della moglie: elena, giulia e davide. la prima vive già fuori casa, la seconda…",
-     "age": "T",
-     "slots": [
-      {
-       "lang": {
-        "cat": "ita",
-        "audio": "In italiano"
-       },
-       "shows": {
-        "2026-11-13": [
-         {
-          "t": "19:30",
-          "hall": "Rubino",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/859405#sala"
-         },
-         {
-          "t": "21:40",
-          "hall": "Rubino",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/859406#sala"
-         }
-        ],
-        "2026-11-14": [
-         {
-          "t": "17:00",
-          "hall": "Obraz",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/859412#sala"
-         },
-         {
-          "t": "19:30",
-          "hall": "Rubino",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/859407#sala"
-         },
-         {
-          "t": "21:40",
-          "hall": "Rubino",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/859408#sala"
-         }
-        ],
-        "2026-11-15": [
-         {
-          "t": "17:00",
-          "hall": "Obraz",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/859411#sala"
-         },
-         {
-          "t": "19:20",
-          "hall": "Rubino",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/859409#sala"
-         },
-         {
-          "t": "21:30",
-          "hall": "Rubino",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/859410#sala"
-         }
-        ],
-        "2026-11-16": [
-         {
-          "t": "10:00",
-          "hall": "De amicis",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/860781#sala"
-         },
-         {
-          "t": "16:35",
-          "hall": "Obraz",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/860172#sala"
-         },
-         {
-          "t": "19:30",
-          "hall": "Rubino",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/860166#sala"
-         }
-        ],
-        "2026-11-17": [
-         {
-          "t": "12:40",
-          "hall": "Astra",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/860169#sala"
-         },
-         {
-          "t": "14:50",
-          "hall": "Astra",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/860170#sala"
-         },
-         {
-          "t": "16:50",
-          "hall": "Obraz",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/860171#sala"
-         },
-         {
-          "t": "21:30",
-          "hall": "De amicis",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/860173#sala"
-         }
-        ],
-        "2026-11-18": [
-         {
-          "t": "15:00",
-          "hall": "Abanella",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/860168#sala"
-         },
-         {
-          "t": "19:30",
-          "hall": "Rubino",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/860167#sala"
-         }
-        ]
-       }
-      }
-     ]
-    },
-    {
-     "id": "naza",
-     "title": "Naza",
-     "orig": null,
-     "dir": "Yuval Abraham E Rachel Szor",
-     "cast": "Rachel Szor, Yuval Abraham",
-     "meta": "Regno Unito · 2026 · 80′ · Documentario",
-     "genre": null,
-     "url": "https://www.spaziocinema.info/film/v-o-sott-ita-naza",
-     "poster": "https://cdn.18tickets.net/ccb/uploads/film/playbill/111522/ec4770c9-9fc4-414a-97c7-b21404d7b9e7.jpg",
-     "plot": "Nel corso di conversazioni segrete sui tetti di tel aviv, di notte, i meccanismi alla base della sistematica e calcolata uccisione di massa di civili palestinesi a gaza…",
-     "age": "10+",
-     "slots": [
-      {
-       "lang": {
-        "cat": "eng",
-        "audio": "V.O. ebraico · inglese",
-        "sub": "sott. ITA"
-       },
-       "shows": {
-        "2026-11-14": [
-         {
-          "t": "13:15",
-          "hall": "De amicis",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/naza_2026/859504#sala"
-         }
-        ],
-        "2026-11-15": [
-         {
-          "t": "13:15",
-          "hall": "De amicis",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/naza_2026/859505#sala"
-         }
-        ],
-        "2026-11-16": [
-         {
-          "t": "13:20",
-          "hall": "Abadan",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/naza_2026/860152#sala"
-         }
-        ],
-        "2026-11-17": [
-         {
-          "t": "13:15",
-          "hall": "De amicis",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/naza_2026/860153#sala"
-         }
-        ],
-        "2026-11-18": [
-         {
-          "t": "13:15",
-          "hall": "De amicis",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/naza_2026/860154#sala"
-         }
-        ]
-       }
-      }
-     ]
-    },
-    {
-     "id": "il-canto-della-foresta",
-     "title": "Il canto della foresta",
-     "orig": "le chant des forets",
-     "dir": "Vincent Munier",
-     "cast": "Michel Munier, Simon Munier, Vincent Munier",
-     "meta": "Francia · 2025 · 91′ · Documentario",
-     "genre": null,
-     "url": "https://www.spaziocinema.info/film/il-canto-della-foresta-le-chant-des-forets",
-     "poster": "https://cdn.18tickets.net/ccb/uploads/film/playbill/126999/32f4bb78-9abf-481f-a86d-0da33f4b6644.jpg",
-     "plot": "Un nonno, suo figlio e il figlio del figlio: michel, vincent (il regista) e simon. tre maschi di età diverse che condividono l'esperienza, più che consapevoli della sua…",
-     "age": "n/p",
-     "slots": [
-      {
-       "lang": {
-        "cat": "ita",
-        "audio": "In italiano (doppiato)"
-       },
-       "shows": {
-        "2026-11-14": [
-         {
-          "t": "12:20",
-          "hall": "Rubino",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-07ccf0f6-5894-4101-8f39-b4fc7340a313/859543#sala"
-         },
-         {
-          "t": "15:00",
-          "hall": "Obraz",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-07ccf0f6-5894-4101-8f39-b4fc7340a313/859541#sala"
-         }
-        ],
-        "2026-11-15": [
-         {
-          "t": "13:00",
-          "hall": "Nobel",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-6a08fe4b-232a-4548-96f0-9c4babf4952c/858993#sala"
-         },
-         {
-          "t": "15:00",
-          "hall": "Obraz",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-07ccf0f6-5894-4101-8f39-b4fc7340a313/859540#sala"
-         }
-        ],
-        "2026-11-16": [
-         {
-          "t": "21:40",
-          "hall": "Excelsior",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025/856590#sala"
-         }
-        ],
-        "2026-11-17": [
-         {
-          "t": "12:25",
-          "hall": "President",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-07ccf0f6-5894-4101-8f39-b4fc7340a313/860263#sala"
-         },
-         {
-          "t": "15:00",
-          "hall": "Obraz",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-07ccf0f6-5894-4101-8f39-b4fc7340a313/860260#sala"
-         }
-        ],
-        "2026-11-18": [
-         {
-          "t": "12:20",
-          "hall": "Rubino",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-07ccf0f6-5894-4101-8f39-b4fc7340a313/860262#sala"
-         },
-         {
-          "t": "15:00",
-          "hall": "Obraz",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-07ccf0f6-5894-4101-8f39-b4fc7340a313/860261#sala"
-         }
-        ]
-       }
-      },
-      {
-       "lang": {
-        "cat": "vo",
-        "audio": "V.O. francese",
-        "sub": "sott. ITA"
-       },
-       "shows": {
-        "2026-11-14": [
-         {
-          "t": "16:45",
-          "hall": "Abanella",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-il-canto-della-foresta_2025/860287#sala"
-         }
-        ],
-        "2026-11-15": [
-         {
-          "t": "16:45",
-          "hall": "Abanella",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-il-canto-della-foresta_2025/860288#sala"
-         }
-        ],
-        "2026-11-17": [
-         {
-          "t": "16:45",
-          "hall": "Abanella",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-il-canto-della-foresta_2025/860289#sala"
-         }
-        ],
-        "2026-11-18": [
-         {
-          "t": "17:15",
-          "hall": "Abanella",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-il-canto-della-foresta_2025/860290#sala"
          }
         ]
        }
@@ -2409,6 +1845,449 @@ window.DATA = {
           "t": "10:00",
           "hall": "Abanella",
           "link": "https://anteo.spaziocinema.18tickets.it/film/generazione_2026/848637#sala"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "wild-horse-nine",
+     "title": "Wild Horse Nine",
+     "orig": null,
+     "dir": "M. Mcdonagh",
+     "cast": "S. Rockwell, S. Buscemi, P. Posey",
+     "meta": "Regno Unito · 2026 · 118′ · Commedia",
+     "genre": null,
+     "url": "https://www.spaziocinema.info/film/v-o-sott-ita-wild-horse-nine",
+     "poster": "https://cdn.18tickets.net/ccb/uploads/film/playbill/125679/0e0ccc0a-0564-40e0-9e61-7c14a27cffb1.jpg",
+     "plot": "Il film è ambientato alla vigilia del colpo di stato cileno del 1973. due agenti della cia, chris e lee, vengono inviati da santiago all’isola di pasqua. tra segreti,…",
+     "age": "10+",
+     "slots": [
+      {
+       "lang": {
+        "cat": "eng",
+        "audio": "V.O. inglese",
+        "sub": "sott. ITA"
+       },
+       "shows": {
+        "2026-11-14": [
+         {
+          "t": "12:30",
+          "hall": "Excelsior",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-404dad21-a6e6-4504-8b17-3c520efd67c3/859302#sala"
+         },
+         {
+          "t": "17:00",
+          "hall": "Excelsior",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-404dad21-a6e6-4504-8b17-3c520efd67c3/859303#sala"
+         },
+         {
+          "t": "18:30",
+          "hall": "Nobel",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-315b022f-ee9d-4291-b0d0-91373b46b419/858944#sala"
+         },
+         {
+          "t": "21:30",
+          "hall": "Excelsior",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-404dad21-a6e6-4504-8b17-3c520efd67c3/859304#sala"
+         }
+        ],
+        "2026-11-15": [
+         {
+          "t": "12:15",
+          "hall": "President",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-404dad21-a6e6-4504-8b17-3c520efd67c3/861969#sala"
+         },
+         {
+          "t": "17:15",
+          "hall": "Excelsior",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-404dad21-a6e6-4504-8b17-3c520efd67c3/859306#sala"
+         },
+         {
+          "t": "20:30",
+          "hall": "Nobel",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-315b022f-ee9d-4291-b0d0-91373b46b419/858950#sala"
+         },
+         {
+          "t": "21:45",
+          "hall": "Excelsior",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-404dad21-a6e6-4504-8b17-3c520efd67c3/859307#sala"
+         }
+        ],
+        "2026-11-16": [
+         {
+          "t": "12:45",
+          "hall": "Excelsior",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-404dad21-a6e6-4504-8b17-3c520efd67c3/860183#sala"
+         },
+         {
+          "t": "17:15",
+          "hall": "Excelsior",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-404dad21-a6e6-4504-8b17-3c520efd67c3/860184#sala"
+         },
+         {
+          "t": "21:40",
+          "hall": "Rubino",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-404dad21-a6e6-4504-8b17-3c520efd67c3/860191#sala"
+         }
+        ],
+        "2026-11-17": [
+         {
+          "t": "12:45",
+          "hall": "Obraz",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-404dad21-a6e6-4504-8b17-3c520efd67c3/860190#sala"
+         },
+         {
+          "t": "17:00",
+          "hall": "Excelsior",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-404dad21-a6e6-4504-8b17-3c520efd67c3/860185#sala"
+         },
+         {
+          "t": "20:00",
+          "hall": "Nobel",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-315b022f-ee9d-4291-b0d0-91373b46b419/860353#sala"
+         },
+         {
+          "t": "21:30",
+          "hall": "Excelsior",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-404dad21-a6e6-4504-8b17-3c520efd67c3/860186#sala"
+         }
+        ],
+        "2026-11-18": [
+         {
+          "t": "12:30",
+          "hall": "Excelsior",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-404dad21-a6e6-4504-8b17-3c520efd67c3/860187#sala"
+         },
+         {
+          "t": "16:50",
+          "hall": "Obraz",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-404dad21-a6e6-4504-8b17-3c520efd67c3/860189#sala"
+         },
+         {
+          "t": "21:30",
+          "hall": "Excelsior",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-404dad21-a6e6-4504-8b17-3c520efd67c3/860188#sala"
+         }
+        ]
+       }
+      },
+      {
+       "lang": {
+        "cat": "ita",
+        "audio": "In italiano (doppiato)"
+       },
+       "shows": {
+        "2026-11-14": [
+         {
+          "t": "10:15",
+          "hall": "Excelsior",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-9a4c11f3-5920-4421-9817-dd68613d6ff0/859317#sala"
+         },
+         {
+          "t": "14:45",
+          "hall": "Excelsior",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-9a4c11f3-5920-4421-9817-dd68613d6ff0/859318#sala"
+         },
+         {
+          "t": "19:15",
+          "hall": "Excelsior",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-9a4c11f3-5920-4421-9817-dd68613d6ff0/859319#sala"
+         }
+        ],
+        "2026-11-15": [
+         {
+          "t": "10:30",
+          "hall": "Abadan",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-9a4c11f3-5920-4421-9817-dd68613d6ff0/859414#sala"
+         },
+         {
+          "t": "15:00",
+          "hall": "Excelsior",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-9a4c11f3-5920-4421-9817-dd68613d6ff0/859320#sala"
+         },
+         {
+          "t": "18:00",
+          "hall": "Nobel",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-1bfd9fed-dc88-4c19-8ca6-db71d2f0c0ec/858938#sala"
+         },
+         {
+          "t": "19:30",
+          "hall": "Excelsior",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-9a4c11f3-5920-4421-9817-dd68613d6ff0/859321#sala"
+         }
+        ],
+        "2026-11-16": [
+         {
+          "t": "10:00",
+          "hall": "Excelsior",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-9a4c11f3-5920-4421-9817-dd68613d6ff0/860192#sala"
+         },
+         {
+          "t": "15:00",
+          "hall": "Excelsior",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-9a4c11f3-5920-4421-9817-dd68613d6ff0/860193#sala"
+         },
+         {
+          "t": "19:25",
+          "hall": "Astoria",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-9a4c11f3-5920-4421-9817-dd68613d6ff0/860199#sala"
+         }
+        ],
+        "2026-11-17": [
+         {
+          "t": "14:45",
+          "hall": "Excelsior",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-9a4c11f3-5920-4421-9817-dd68613d6ff0/860194#sala"
+         },
+         {
+          "t": "19:15",
+          "hall": "Excelsior",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-9a4c11f3-5920-4421-9817-dd68613d6ff0/860195#sala"
+         }
+        ],
+        "2026-11-18": [
+         {
+          "t": "10:15",
+          "hall": "Excelsior",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-9a4c11f3-5920-4421-9817-dd68613d6ff0/860197#sala"
+         },
+         {
+          "t": "14:45",
+          "hall": "Excelsior",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-9a4c11f3-5920-4421-9817-dd68613d6ff0/860196#sala"
+         },
+         {
+          "t": "19:15",
+          "hall": "Astra",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-9a4c11f3-5920-4421-9817-dd68613d6ff0/860198#sala"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "dio-ride",
+     "title": "Dio ride",
+     "orig": null,
+     "dir": "Giovanni Veronesi",
+     "cast": "Pierfrancesco Favino, Silvio Orlando, Alma Noce",
+     "meta": "Italia · 2026 · 114′ · Commedia, Dramma",
+     "genre": null,
+     "url": "https://www.spaziocinema.info/film/dio-ride",
+     "poster": "https://cdn.18tickets.net/ccb/uploads/film/playbill/123931/81b8aede-e5c7-45e3-b3af-8edb5aea3876.jpg",
+     "plot": "Nel cuore del ‘600, frate leopoldo da casamacchia racconta il vangelo con una gioia e una libertà mai viste prima. mentre la chiesa parla in latino, lui parla alla gente…",
+     "age": "10+",
+     "slots": [
+      {
+       "lang": {
+        "cat": "ita",
+        "audio": "In italiano"
+       },
+       "shows": {
+        "2026-11-14": [
+         {
+          "t": "15:00",
+          "hall": "Abadan",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/859466#sala"
+         },
+         {
+          "t": "17:15",
+          "hall": "Abadan",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/859467#sala"
+         },
+         {
+          "t": "19:30",
+          "hall": "Abadan",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/859468#sala"
+         },
+         {
+          "t": "21:45",
+          "hall": "Abadan",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/859469#sala"
+         }
+        ],
+        "2026-11-15": [
+         {
+          "t": "15:00",
+          "hall": "Abadan",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/859470#sala"
+         },
+         {
+          "t": "17:15",
+          "hall": "Abadan",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/859471#sala"
+         },
+         {
+          "t": "19:30",
+          "hall": "Abadan",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/859472#sala"
+         },
+         {
+          "t": "21:45",
+          "hall": "Abadan",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/859473#sala"
+         }
+        ],
+        "2026-11-16": [
+         {
+          "t": "15:00",
+          "hall": "Abadan",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/860174#sala"
+         },
+         {
+          "t": "17:15",
+          "hall": "Abadan",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/860175#sala"
+         },
+         {
+          "t": "19:30",
+          "hall": "Abadan",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/860176#sala"
+         }
+        ],
+        "2026-11-17": [
+         {
+          "t": "14:40",
+          "hall": "Abadan",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/860178#sala"
+         },
+         {
+          "t": "17:30",
+          "hall": "Rubino",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/860180#sala"
+         },
+         {
+          "t": "19:30",
+          "hall": "Abadan",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/860179#sala"
+         }
+        ],
+        "2026-11-18": [
+         {
+          "t": "14:45",
+          "hall": "Astra",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/860181#sala"
+         },
+         {
+          "t": "17:00",
+          "hall": "Astra",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/860182#sala"
+         },
+         {
+          "t": "21:40",
+          "hall": "Rubino",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/860322#sala"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "se-domani-non-torno",
+     "title": "Se domani non torno",
+     "orig": null,
+     "dir": "P. Randi",
+     "cast": "F. Timi, S. Martini, T. Bossi",
+     "meta": "Italia · 2026 · 106′ · Biografico",
+     "genre": null,
+     "url": "https://www.spaziocinema.info/film/se-domani-non-torno",
+     "poster": "https://cdn.18tickets.net/ccb/uploads/film/playbill/125614/5f2314b7-eb92-4145-8d5b-0fff5368847a.jpg",
+     "plot": "Gino cecchettin è un padre vedovo con tre figli che accudisce con amore, in sostituzione della moglie: elena, giulia e davide. la prima vive già fuori casa, la seconda…",
+     "age": "T",
+     "slots": [
+      {
+       "lang": {
+        "cat": "ita",
+        "audio": "In italiano"
+       },
+       "shows": {
+        "2026-11-14": [
+         {
+          "t": "17:00",
+          "hall": "Obraz",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/859412#sala"
+         },
+         {
+          "t": "19:30",
+          "hall": "Rubino",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/859407#sala"
+         },
+         {
+          "t": "21:40",
+          "hall": "Rubino",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/859408#sala"
+         }
+        ],
+        "2026-11-15": [
+         {
+          "t": "17:00",
+          "hall": "Obraz",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/859411#sala"
+         },
+         {
+          "t": "19:20",
+          "hall": "Rubino",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/859409#sala"
+         },
+         {
+          "t": "21:30",
+          "hall": "Rubino",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/859410#sala"
+         }
+        ],
+        "2026-11-16": [
+         {
+          "t": "10:00",
+          "hall": "De amicis",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/860781#sala"
+         },
+         {
+          "t": "16:35",
+          "hall": "Obraz",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/860172#sala"
+         },
+         {
+          "t": "19:30",
+          "hall": "Rubino",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/860166#sala"
+         }
+        ],
+        "2026-11-17": [
+         {
+          "t": "12:40",
+          "hall": "Astra",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/860169#sala"
+         },
+         {
+          "t": "14:50",
+          "hall": "Astra",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/860170#sala"
+         },
+         {
+          "t": "16:50",
+          "hall": "Obraz",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/860171#sala"
+         },
+         {
+          "t": "21:30",
+          "hall": "De amicis",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/860173#sala"
+         }
+        ],
+        "2026-11-18": [
+         {
+          "t": "15:00",
+          "hall": "Abanella",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/860168#sala"
+         },
+         {
+          "t": "19:30",
+          "hall": "Rubino",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/860167#sala"
          }
         ]
        }
@@ -3082,12 +2961,6 @@ window.DATA = {
         "audio": "In italiano"
        },
        "shows": {
-        "2026-11-13": [
-         "14:50",
-         "17:00",
-         "19:15",
-         "21:30"
-        ],
         "2026-11-14": [
          "14:50",
          "17:00",
@@ -3164,9 +3037,6 @@ window.DATA = {
         "audio": "In italiano"
        },
        "shows": {
-        "2026-11-13": [
-         "17:05"
-        ],
         "2026-11-14": [
          "15:00",
          "17:10"
@@ -3199,12 +3069,6 @@ window.DATA = {
         "audio": "In italiano"
        },
        "shows": {
-        "2026-11-13": [
-         "14:50",
-         "17:00",
-         "19:15",
-         "21:30"
-        ],
         "2026-11-14": [
          "14:50",
          "17:00",
@@ -3244,10 +3108,6 @@ window.DATA = {
         "audio": "In italiano"
        },
        "shows": {
-        "2026-11-13": [
-         "17:05",
-         "21:30"
-        ],
         "2026-11-14": [
          "17:00",
          "21:30"
@@ -3281,11 +3141,6 @@ window.DATA = {
         "audio": "In italiano"
        },
        "shows": {
-        "2026-11-13": [
-         "14:50",
-         "17:00",
-         "19:15"
-        ],
         "2026-11-14": [
          "14:50",
          "17:00",
@@ -3307,13 +3162,9 @@ window.DATA = {
       {
        "lang": {
         "cat": "eng",
-        "audio": "V.O. inglese",
-        "sub": "sott. ITA"
+        "audio": "V.O. inglese"
        },
        "shows": {
-        "2026-11-13": [
-         "21:30"
-        ],
         "2026-11-14": [
          "21:30"
         ],
@@ -3344,11 +3195,6 @@ window.DATA = {
         "audio": "In italiano"
        },
        "shows": {
-        "2026-11-13": [
-         "15:00",
-         "19:20",
-         "21:30"
-        ],
         "2026-11-14": [
          "19:20",
          "21:30"
@@ -3383,10 +3229,6 @@ window.DATA = {
         "audio": "In italiano"
        },
        "shows": {
-        "2026-11-13": [
-         "15:00",
-         "19:20"
-        ],
         "2026-11-14": [
          "15:00",
          "19:20"
@@ -3420,11 +3262,6 @@ window.DATA = {
         "audio": "In italiano (doppiato)"
        },
        "shows": {
-        "2026-11-13": [
-         "14:50",
-         "17:00",
-         "19:15"
-        ],
         "2026-11-14": [
          "14:50",
          "17:00",
@@ -3446,13 +3283,9 @@ window.DATA = {
       {
        "lang": {
         "cat": "eng",
-        "audio": "V.O. inglese",
-        "sub": "sott. ITA"
+        "audio": "V.O. inglese"
        },
        "shows": {
-        "2026-11-13": [
-         "21:30"
-        ],
         "2026-11-14": [
          "21:30"
         ],
