@@ -1,5 +1,5 @@
 window.DATA = {
- "updated": "16/11/2026 10:15",
+ "updated": "16/11/2026 17:57",
  "updatedLong": "lunedì 16 novembre 2026",
  "today": "2026-11-16",
  "days": [
@@ -62,124 +62,6 @@ window.DATA = {
    "noDayText": "Nessuno spettacolo in questo giorno.",
    "films": [
     {
-     "id": "wild-horse-nine",
-     "title": "WILD HORSE NINE",
-     "dir": "Martin McDonagh",
-     "cast": "John Malkovich, Sam Rockwell e Steve Buscemi",
-     "meta": "Regno Unito · Stati Uniti · Cile · 2026 · 101′",
-     "genre": null,
-     "url": "https://bandhi.it/bah/beltrade/production/wild-horse-nine/",
-     "poster": null,
-     "slots": [
-      {
-       "lang": {
-        "cat": "eng",
-        "audio": "V.O. inglese",
-        "sub": "sott. ITA"
-       },
-       "shows": {
-        "2026-11-16": [
-         "10:40"
-        ],
-        "2026-11-17": [
-         "21:40"
-        ],
-        "2026-11-18": [
-         "17:30"
-        ]
-       },
-       "tbd": []
-      }
-     ]
-    },
-    {
-     "id": "l-essere-amato",
-     "title": "L’ESSERE AMATO",
-     "dir": "Rodrigo Sorogoyen",
-     "cast": "JAVIER BARDEM, VICTORIA LUENGO, MELINA MATTHEWS, MARINA FOÏS e MALENA VILLA",
-     "meta": "Spagna · Francia · 2026 · 135′",
-     "genre": null,
-     "url": "https://bandhi.it/bah/beltrade/production/lessere-amato/",
-     "poster": null,
-     "slots": [
-      {
-       "lang": {
-        "cat": "vo",
-        "audio": "V.O. spagnolo · inglese · francese",
-        "sub": "sott. ITA"
-       },
-       "shows": {
-        "2026-11-16": [
-         "12:50"
-        ],
-        "2026-11-17": [
-         "17:00"
-        ]
-       },
-       "tbd": []
-      }
-     ]
-    },
-    {
-     "id": "fatherland",
-     "title": "FATHERLAND",
-     "dir": "Paweł Pawlikowski",
-     "cast": "Sandra Hüller, Hanns Zischler, August Diehl, Anna Madeley",
-     "meta": "Germania · Polonia · Italia · Francia · 2026 · 82′",
-     "genre": null,
-     "url": "https://bandhi.it/bah/beltrade/production/fatherland/",
-     "poster": null,
-     "slots": [
-      {
-       "lang": {
-        "cat": "vo",
-        "audio": "V.O. tedesco",
-        "sub": "sott. ITA"
-       },
-       "shows": {
-        "2026-11-16": [
-         "15:20"
-        ],
-        "2026-11-17": [
-         "12:30"
-        ]
-       },
-       "tbd": []
-      }
-     ]
-    },
-    {
-     "id": "look-back",
-     "title": "LOOK BACK",
-     "dir": "Hirokazu Kore-eda",
-     "cast": null,
-     "meta": "2026 · Giappone · 100′",
-     "genre": null,
-     "url": "https://bandhi.it/bah/beltrade/production/look-back/",
-     "poster": null,
-     "slots": [
-      {
-       "lang": {
-        "cat": "vo",
-        "audio": "V.O. giapponese",
-        "sub": "sott. ITA"
-       },
-       "shows": {
-        "2026-11-16": [
-         "16:50"
-        ],
-        "2026-11-17": [
-         "10:40"
-        ],
-        "2026-11-18": [
-         "21:30"
-        ]
-       },
-       "tbd": []
-      }
-     ]
-    },
-    {
      "id": "hope",
      "title": "HOPE",
      "dir": "Na Hong-jin",
@@ -236,6 +118,84 @@ window.DATA = {
      ]
     },
     {
+     "id": "look-back",
+     "title": "LOOK BACK",
+     "dir": "Hirokazu Kore-eda",
+     "cast": null,
+     "meta": "2026 · Giappone · 100′",
+     "genre": null,
+     "url": "https://bandhi.it/bah/beltrade/production/look-back/",
+     "poster": null,
+     "slots": [
+      {
+       "lang": {
+        "cat": "vo",
+        "audio": "V.O. giapponese",
+        "sub": "sott. ITA"
+       },
+       "shows": {
+        "2026-11-17": [
+         "10:40"
+        ],
+        "2026-11-18": [
+         "21:30"
+        ]
+       },
+       "tbd": []
+      }
+     ]
+    },
+    {
+     "id": "fatherland",
+     "title": "FATHERLAND",
+     "dir": "Paweł Pawlikowski",
+     "cast": "Sandra Hüller, Hanns Zischler, August Diehl, Anna Madeley",
+     "meta": "Germania · Polonia · Italia · Francia · 2026 · 82′",
+     "genre": null,
+     "url": "https://bandhi.it/bah/beltrade/production/fatherland/",
+     "poster": null,
+     "slots": [
+      {
+       "lang": {
+        "cat": "vo",
+        "audio": "V.O. tedesco",
+        "sub": "sott. ITA"
+       },
+       "shows": {
+        "2026-11-17": [
+         "12:30"
+        ]
+       },
+       "tbd": []
+      }
+     ]
+    },
+    {
+     "id": "l-essere-amato",
+     "title": "L’ESSERE AMATO",
+     "dir": "Rodrigo Sorogoyen",
+     "cast": "JAVIER BARDEM, VICTORIA LUENGO, MELINA MATTHEWS, MARINA FOÏS e MALENA VILLA",
+     "meta": "Spagna · Francia · 2026 · 135′",
+     "genre": null,
+     "url": "https://bandhi.it/bah/beltrade/production/lessere-amato/",
+     "poster": null,
+     "slots": [
+      {
+       "lang": {
+        "cat": "vo",
+        "audio": "V.O. spagnolo · inglese · francese",
+        "sub": "sott. ITA"
+       },
+       "shows": {
+        "2026-11-17": [
+         "17:00"
+        ]
+       },
+       "tbd": []
+      }
+     ]
+    },
+    {
      "id": "twin-peaks-stag-03-ep-13-e-14",
      "title": "TWIN PEAKS – STAG. 03 EP 13 e 14",
      "dir": null,
@@ -254,6 +214,34 @@ window.DATA = {
        "shows": {
         "2026-11-17": [
          "19:30"
+        ]
+       },
+       "tbd": []
+      }
+     ]
+    },
+    {
+     "id": "wild-horse-nine",
+     "title": "WILD HORSE NINE",
+     "dir": "Martin McDonagh",
+     "cast": "John Malkovich, Sam Rockwell e Steve Buscemi",
+     "meta": "Regno Unito · Stati Uniti · Cile · 2026 · 101′",
+     "genre": null,
+     "url": "https://bandhi.it/bah/beltrade/production/wild-horse-nine/",
+     "poster": null,
+     "slots": [
+      {
+       "lang": {
+        "cat": "eng",
+        "audio": "V.O. inglese",
+        "sub": "sott. ITA"
+       },
+       "shows": {
+        "2026-11-17": [
+         "21:40"
+        ],
+        "2026-11-18": [
+         "17:30"
         ]
        },
        "tbd": []
@@ -435,51 +423,6 @@ window.DATA = {
    "cineNote": "In questa pagina solo gli spettacoli della sede di Piazza XXV Aprile (per CityLife, Ariosto e le altre sale del circuito Anteo vedi il sito). Clicca un orario per comprare il biglietto di quello spettacolo.",
    "films": [
     {
-     "id": "naza",
-     "title": "Naza",
-     "orig": null,
-     "dir": "Yuval Abraham E Rachel Szor",
-     "cast": "Rachel Szor, Yuval Abraham",
-     "meta": "Regno Unito · 2026 · 80′ · Documentario",
-     "genre": null,
-     "url": "https://www.spaziocinema.info/film/v-o-sott-ita-naza",
-     "poster": "https://cdn.18tickets.net/ccb/uploads/film/playbill/111522/ec4770c9-9fc4-414a-97c7-b21404d7b9e7.jpg",
-     "plot": "Nel corso di conversazioni segrete sui tetti di tel aviv, di notte, i meccanismi alla base della sistematica e calcolata uccisione di massa di civili palestinesi a gaza…",
-     "age": "10+",
-     "slots": [
-      {
-       "lang": {
-        "cat": "eng",
-        "audio": "V.O. ebraico · inglese",
-        "sub": "sott. ITA"
-       },
-       "shows": {
-        "2026-11-16": [
-         {
-          "t": "13:20",
-          "hall": "Abadan",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/naza_2026/860152#sala"
-         }
-        ],
-        "2026-11-17": [
-         {
-          "t": "13:15",
-          "hall": "De amicis",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/naza_2026/860153#sala"
-         }
-        ],
-        "2026-11-18": [
-         {
-          "t": "13:15",
-          "hall": "De amicis",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/naza_2026/860154#sala"
-         }
-        ]
-       }
-      }
-     ]
-    },
-    {
      "id": "minotaur-nel-labirinto-del-potere",
      "title": "Minotaur nel labirinto del potere",
      "orig": "minotaure",
@@ -499,11 +442,6 @@ window.DATA = {
        },
        "shows": {
         "2026-11-16": [
-         {
-          "t": "12:15",
-          "hall": "De amicis",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/minotaur-nel-labirinto-del-potere-minotaure-_2026/860135#sala"
-         },
          {
           "t": "18:45",
           "hall": "Abanella",
@@ -538,13 +476,6 @@ window.DATA = {
         "sub": "sott. ITA"
        },
        "shows": {
-        "2026-11-16": [
-         {
-          "t": "14:30",
-          "hall": "Astoria",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-minotaur-_2026/860147#sala"
-         }
-        ],
         "2026-11-17": [
          {
           "t": "15:00",
@@ -576,11 +507,6 @@ window.DATA = {
        },
        "shows": {
         "2026-11-16": [
-         {
-          "t": "10:30",
-          "hall": "Abanella",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/primetime_2026-f74418c3-1a7e-430d-9d74-f5ab3487464d/860200#sala"
-         },
          {
           "t": "21:45",
           "hall": "Abadan",
@@ -631,16 +557,6 @@ window.DATA = {
        },
        "shows": {
         "2026-11-16": [
-         {
-          "t": "13:00",
-          "hall": "Astra",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-la-gradiva_2026-2973e5c9-781b-48e6-8496-24c5560ef039/860215#sala"
-         },
-         {
-          "t": "16:00",
-          "hall": "Astra",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-la-gradiva_2026-2973e5c9-781b-48e6-8496-24c5560ef039/860216#sala"
-         },
          {
           "t": "21:30",
           "hall": "Abanella",
@@ -775,11 +691,6 @@ window.DATA = {
        "shows": {
         "2026-11-16": [
          {
-          "t": "14:45",
-          "hall": "Obraz",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-07ccf0f6-5894-4101-8f39-b4fc7340a313/860259#sala"
-         },
-         {
           "t": "21:40",
           "hall": "Excelsior",
           "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025/856590#sala"
@@ -868,85 +779,6 @@ window.DATA = {
      ]
     },
     {
-     "id": "fatherland",
-     "title": "Fatherland",
-     "orig": null,
-     "dir": "Paweł Pawlikowski",
-     "cast": "Sandra Hüller, Hanns Zischler, August Diehl",
-     "meta": "Polonia · 2026 · 82′ · Dramma, Storia",
-     "genre": null,
-     "url": "https://www.spaziocinema.info/film/fatherland-1",
-     "poster": "https://cdn.18tickets.net/ccb/uploads/film/playbill/119607/5961e593-ccc7-4aa4-b946-bb7eb51a8c67.jpg",
-     "plot": "Thomas mann torna in germania con la figlia erika dopo l'autoesilio negli stati uniti e l'attraversa per un ciclo di conferenze su goethe passando dalla germania ovest…",
-     "age": "T",
-     "slots": [
-      {
-       "lang": {
-        "cat": "ita",
-        "audio": "In italiano (doppiato)"
-       },
-       "shows": {
-        "2026-11-16": [
-         {
-          "t": "15:00",
-          "hall": "Abanella",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/fatherland_2026-8d1b510a-12f8-4527-b949-dc6a97836d5d/860157#sala"
-         }
-        ],
-        "2026-11-17": [
-         {
-          "t": "15:00",
-          "hall": "Abanella",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/fatherland_2026-8d1b510a-12f8-4527-b949-dc6a97836d5d/860158#sala"
-         }
-        ],
-        "2026-11-18": [
-         {
-          "t": "12:45",
-          "hall": "Astra",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/fatherland_2026-8d1b510a-12f8-4527-b949-dc6a97836d5d/860160#sala"
-         },
-         {
-          "t": "14:20",
-          "hall": "Astoria",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/fatherland_2026-8d1b510a-12f8-4527-b949-dc6a97836d5d/860159#sala"
-         }
-        ]
-       }
-      },
-      {
-       "lang": {
-        "cat": "vo",
-        "audio": "V.O. tedesco",
-        "sub": "sott. ITA"
-       },
-       "shows": {
-        "2026-11-16": [
-         {
-          "t": "13:00",
-          "hall": "Rubino",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/fatherland-v-o-_2026/860161#sala"
-         }
-        ],
-        "2026-11-17": [
-         {
-          "t": "19:45",
-          "hall": "De amicis",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/fatherland-v-o-_2026/860164#sala"
-         }
-        ],
-        "2026-11-18": [
-         {
-          "t": "19:45",
-          "hall": "De amicis",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/fatherland-v-o-_2026/860165#sala"
-         }
-        ]
-       }
-      }
-     ]
-    },
-    {
      "id": "il-rumore-delle-cose-nuove",
      "title": "Il rumore delle cose nuove",
      "orig": null,
@@ -966,16 +798,6 @@ window.DATA = {
        },
        "shows": {
         "2026-11-16": [
-         {
-          "t": "10:30",
-          "hall": "Obraz",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/il-rumore-delle-cose-nuove_2026-f24fda47-4556-4769-a4ea-ead3a4acafa6/860203#sala"
-         },
-         {
-          "t": "12:15",
-          "hall": "Astoria",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/il-rumore-delle-cose-nuove_2026-f24fda47-4556-4769-a4ea-ead3a4acafa6/860201#sala"
-         },
          {
           "t": "17:10",
           "hall": "Astoria",
@@ -1046,16 +868,6 @@ window.DATA = {
        "shows": {
         "2026-11-16": [
          {
-          "t": "10:30",
-          "hall": "Astra",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/l-essere-amato-el-ser-querido-_2026-15492c65-2ff2-4ee0-9aa0-0068d59d7b60/860241#sala"
-         },
-         {
-          "t": "14:15",
-          "hall": "President",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/l-essere-amato-el-ser-querido-_2026-15492c65-2ff2-4ee0-9aa0-0068d59d7b60/860242#sala"
-         },
-         {
           "t": "19:10",
           "hall": "Obraz",
           "link": "https://anteo.spaziocinema.18tickets.it/film/l-essere-amato-el-ser-querido-_2026-15492c65-2ff2-4ee0-9aa0-0068d59d7b60/860243#sala"
@@ -1095,11 +907,6 @@ window.DATA = {
        },
        "shows": {
         "2026-11-16": [
-         {
-          "t": "16:50",
-          "hall": "Rubino",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/l-essere-amato-el-ser-querido-_2026-2f9e213a-46e5-4ee6-ace4-ee499e0ac953/860249#sala"
-         },
          {
           "t": "21:45",
           "hall": "Obraz",
@@ -1190,50 +997,6 @@ window.DATA = {
      ]
     },
     {
-     "id": "je-so-pazzo",
-     "title": "Je so pazzo",
-     "orig": null,
-     "dir": "Nicola Prosatore",
-     "cast": "Massimiliano Caiazzo, Mariasole Pollio, Giovanni Ludeno",
-     "meta": "Italia · 2026 · 105′ · Dramma, Musica",
-     "genre": null,
-     "url": "https://www.spaziocinema.info/film/je-so-pazzo-2",
-     "poster": "https://cdn.18tickets.net/ccb/uploads/film/playbill/119707/7bf56574-147f-4c36-b5ec-bcaaa8cdbb3c.jpg",
-     "plot": "Je so’ pazzo è un ritratto intenso di pino daniele, un’anima ribelle nata nei vicoli di napoli, che ha rivoluzionato la musica italiana fondendo blues, jazz e tradizione…",
-     "age": "T",
-     "slots": [
-      {
-       "lang": {
-        "cat": "ita",
-        "audio": "In italiano"
-       },
-       "shows": {
-        "2026-11-16": [
-         {
-          "t": "14:40",
-          "hall": "Rubino",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/je-so-pazzo_2026-d00ab3b4-33cb-4c4c-96cd-0ef018a0075b/860130#sala"
-         }
-        ],
-        "2026-11-17": [
-         {
-          "t": "12:30",
-          "hall": "Abadan",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/je-so-pazzo_2026-d00ab3b4-33cb-4c4c-96cd-0ef018a0075b/860321#sala"
-         }
-        ],
-        "2026-11-18": [
-         {
-          "t": "10:30",
-          "hall": "Astra",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/je-so-pazzo_2026-a1233392-6e04-43db-8236-8a5971ece970/860484#sala"
-         }
-        ]
-       }
-      }
-     ]
-    },
-    {
      "id": "look-back",
      "title": "Look back",
      "orig": null,
@@ -1254,16 +1017,6 @@ window.DATA = {
        },
        "shows": {
         "2026-11-16": [
-         {
-          "t": "10:15",
-          "hall": "Astoria",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-look-back_2026/860235#sala"
-         },
-         {
-          "t": "15:00",
-          "hall": "De amicis",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-look-back_2026/860233#sala"
-         },
          {
           "t": "19:25",
           "hall": "De amicis",
@@ -1308,16 +1061,6 @@ window.DATA = {
        },
        "shows": {
         "2026-11-16": [
-         {
-          "t": "12:45",
-          "hall": "Obraz",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/look-back-_2026-04750a07-ae3d-420e-804c-d2f042c34d0f/860224#sala"
-         },
-         {
-          "t": "16:40",
-          "hall": "Abanella",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/look-back-_2026-04750a07-ae3d-420e-804c-d2f042c34d0f/860225#sala"
-         },
          {
           "t": "21:30",
           "hall": "De amicis",
@@ -1410,11 +1153,6 @@ window.DATA = {
        "shows": {
         "2026-11-16": [
          {
-          "t": "12:45",
-          "hall": "Excelsior",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-404dad21-a6e6-4504-8b17-3c520efd67c3/860183#sala"
-         },
-         {
           "t": "17:15",
           "hall": "Excelsior",
           "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-404dad21-a6e6-4504-8b17-3c520efd67c3/860184#sala"
@@ -1473,11 +1211,6 @@ window.DATA = {
        },
        "shows": {
         "2026-11-16": [
-         {
-          "t": "15:00",
-          "hall": "Excelsior",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-9a4c11f3-5920-4421-9817-dd68613d6ff0/860193#sala"
-         },
          {
           "t": "19:25",
           "hall": "Astoria",
@@ -1538,11 +1271,6 @@ window.DATA = {
        "shows": {
         "2026-11-16": [
          {
-          "t": "15:00",
-          "hall": "Abadan",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/860174#sala"
-         },
-         {
           "t": "17:15",
           "hall": "Abadan",
           "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/860175#sala"
@@ -1600,8 +1328,8 @@ window.DATA = {
      "meta": "Italia · 2026 · 106′ · Biografico",
      "genre": null,
      "url": "https://www.spaziocinema.info/film/se-domani-non-torno",
-     "poster": "https://cdn.18tickets.net/ccb/uploads/film/playbill/120830/e53cf456-15d6-4a5b-8453-c7ad79d2887d.jpg",
-     "plot": "Una famiglia come tante nella provincia del nord est. gino cecchettin e i suoi figli: il più piccolo davide al liceo, la grande elena che è all’estero a studiare e…",
+     "poster": "https://cdn.18tickets.net/ccb/uploads/film/playbill/125614/5f2314b7-eb92-4145-8d5b-0fff5368847a.jpg",
+     "plot": "Gino cecchettin è un padre vedovo con tre figli che accudisce con amore, in sostituzione della moglie: elena, giulia e davide. la prima vive già fuori casa, la seconda…",
      "age": "T",
      "slots": [
       {
@@ -1611,11 +1339,6 @@ window.DATA = {
        },
        "shows": {
         "2026-11-16": [
-         {
-          "t": "16:35",
-          "hall": "Obraz",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/860172#sala"
-         },
          {
           "t": "19:30",
           "hall": "Rubino",
@@ -1654,44 +1377,6 @@ window.DATA = {
           "t": "19:30",
           "hall": "Rubino",
           "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/860167#sala"
-         }
-        ]
-       }
-      }
-     ]
-    },
-    {
-     "id": "george-michael-the-faith-tour",
-     "title": "George michael: the faith tour",
-     "orig": null,
-     "dir": "Andy Morahan, David Austin",
-     "cast": "George Michael, Herb Ritts",
-     "meta": "Regno Unito · 2026 · 113′ · Documentario, Musica",
-     "genre": null,
-     "url": "https://www.spaziocinema.info/film/george-michael-the-faith-tour",
-     "poster": "https://cdn.18tickets.net/ccb/uploads/film/playbill/127197/c9e399b9-9727-44fd-825b-dbe8a13f88ad.jpg",
-     "plot": "Ilm-concerto restaurato che ripropone le esibizioni del \"faith tour\" di george michael al palais omnisports de paris-bercy del 1988, riprese su pellicola da 35 mm nel…",
-     "age": "T",
-     "slots": [
-      {
-       "lang": {
-        "cat": "eng",
-        "audio": "V.O. inglese",
-        "sub": "sott. ITA"
-       },
-       "shows": {
-        "2026-11-16": [
-         {
-          "t": "12:40",
-          "hall": "Abanella",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-george-michael-the-faith-tour_2026-7c3d6c18-428f-47a8-bbd4-0769f3e65970/860319#sala"
-         }
-        ],
-        "2026-11-17": [
-         {
-          "t": "12:40",
-          "hall": "Abanella",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-george-michael-the-faith-tour_2026-7c3d6c18-428f-47a8-bbd4-0769f3e65970/860320#sala"
          }
         ]
        }
@@ -1751,6 +1436,109 @@ window.DATA = {
           "t": "20:30",
           "hall": "Anteo spazio realta' virtuale",
           "link": "https://anteo.spaziocinema.18tickets.it/film/firenze-vr-me-moire-the-italian-baba-proto-vr_2025/859564#sala"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "naza",
+     "title": "Naza",
+     "orig": null,
+     "dir": "Yuval Abraham E Rachel Szor",
+     "cast": "Rachel Szor, Yuval Abraham",
+     "meta": "Regno Unito · 2026 · 80′ · Documentario",
+     "genre": null,
+     "url": "https://www.spaziocinema.info/film/v-o-sott-ita-naza",
+     "poster": "https://cdn.18tickets.net/ccb/uploads/film/playbill/111522/ec4770c9-9fc4-414a-97c7-b21404d7b9e7.jpg",
+     "plot": "Nel corso di conversazioni segrete sui tetti di tel aviv, di notte, i meccanismi alla base della sistematica e calcolata uccisione di massa di civili palestinesi a gaza…",
+     "age": "10+",
+     "slots": [
+      {
+       "lang": {
+        "cat": "eng",
+        "audio": "V.O. ebraico · inglese",
+        "sub": "sott. ITA"
+       },
+       "shows": {
+        "2026-11-17": [
+         {
+          "t": "13:15",
+          "hall": "De amicis",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/naza_2026/860153#sala"
+         }
+        ],
+        "2026-11-18": [
+         {
+          "t": "13:15",
+          "hall": "De amicis",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/naza_2026/860154#sala"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "fatherland",
+     "title": "Fatherland",
+     "orig": null,
+     "dir": "Paweł Pawlikowski",
+     "cast": "Sandra Hüller, Hanns Zischler, August Diehl",
+     "meta": "Polonia · 2026 · 82′ · Dramma, Storia",
+     "genre": null,
+     "url": "https://www.spaziocinema.info/film/fatherland-1",
+     "poster": "https://cdn.18tickets.net/ccb/uploads/film/playbill/119607/5961e593-ccc7-4aa4-b946-bb7eb51a8c67.jpg",
+     "plot": "Thomas mann torna in germania con la figlia erika dopo l'autoesilio negli stati uniti e l'attraversa per un ciclo di conferenze su goethe passando dalla germania ovest…",
+     "age": "T",
+     "slots": [
+      {
+       "lang": {
+        "cat": "ita",
+        "audio": "In italiano (doppiato)"
+       },
+       "shows": {
+        "2026-11-17": [
+         {
+          "t": "15:00",
+          "hall": "Abanella",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/fatherland_2026-8d1b510a-12f8-4527-b949-dc6a97836d5d/860158#sala"
+         }
+        ],
+        "2026-11-18": [
+         {
+          "t": "12:45",
+          "hall": "Astra",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/fatherland_2026-8d1b510a-12f8-4527-b949-dc6a97836d5d/860160#sala"
+         },
+         {
+          "t": "14:20",
+          "hall": "Astoria",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/fatherland_2026-8d1b510a-12f8-4527-b949-dc6a97836d5d/860159#sala"
+         }
+        ]
+       }
+      },
+      {
+       "lang": {
+        "cat": "vo",
+        "audio": "V.O. tedesco",
+        "sub": "sott. ITA"
+       },
+       "shows": {
+        "2026-11-17": [
+         {
+          "t": "19:45",
+          "hall": "De amicis",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/fatherland-v-o-_2026/860164#sala"
+         }
+        ],
+        "2026-11-18": [
+         {
+          "t": "19:45",
+          "hall": "De amicis",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/fatherland-v-o-_2026/860165#sala"
          }
         ]
        }
@@ -1820,6 +1608,43 @@ window.DATA = {
      ]
     },
     {
+     "id": "je-so-pazzo",
+     "title": "Je so pazzo",
+     "orig": null,
+     "dir": "Nicola Prosatore",
+     "cast": "Massimiliano Caiazzo, Mariasole Pollio, Giovanni Ludeno",
+     "meta": "Italia · 2026 · 105′ · Dramma, Musica",
+     "genre": null,
+     "url": "https://www.spaziocinema.info/film/je-so-pazzo-2",
+     "poster": "https://cdn.18tickets.net/ccb/uploads/film/playbill/119707/7bf56574-147f-4c36-b5ec-bcaaa8cdbb3c.jpg",
+     "plot": "Je so’ pazzo è un ritratto intenso di pino daniele, un’anima ribelle nata nei vicoli di napoli, che ha rivoluzionato la musica italiana fondendo blues, jazz e tradizione…",
+     "age": "T",
+     "slots": [
+      {
+       "lang": {
+        "cat": "ita",
+        "audio": "In italiano"
+       },
+       "shows": {
+        "2026-11-17": [
+         {
+          "t": "12:30",
+          "hall": "Abadan",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/je-so-pazzo_2026-d00ab3b4-33cb-4c4c-96cd-0ef018a0075b/860321#sala"
+         }
+        ],
+        "2026-11-18": [
+         {
+          "t": "10:30",
+          "hall": "Astra",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/je-so-pazzo_2026-a1233392-6e04-43db-8236-8a5971ece970/860484#sala"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
      "id": "ritratto-di-un-certo-oriente",
      "title": "Ritratto di un Certo Oriente",
      "orig": null,
@@ -1844,6 +1669,37 @@ window.DATA = {
           "t": "21:15",
           "hall": "Astoria",
           "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-ritratto-di-un-certo-oriente_2025-712949d6-bba3-41a9-8664-948be9f46dd2/850882#sala"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "george-michael-the-faith-tour",
+     "title": "George michael: the faith tour",
+     "orig": null,
+     "dir": "Andy Morahan, David Austin",
+     "cast": "George Michael, Herb Ritts",
+     "meta": "Regno Unito · 2026 · 113′ · Documentario, Musica",
+     "genre": null,
+     "url": "https://www.spaziocinema.info/film/george-michael-the-faith-tour",
+     "poster": "https://cdn.18tickets.net/ccb/uploads/film/playbill/127197/c9e399b9-9727-44fd-825b-dbe8a13f88ad.jpg",
+     "plot": "Ilm-concerto restaurato che ripropone le esibizioni del \"faith tour\" di george michael al palais omnisports de paris-bercy del 1988, riprese su pellicola da 35 mm nel…",
+     "age": "T",
+     "slots": [
+      {
+       "lang": {
+        "cat": "eng",
+        "audio": "V.O. inglese",
+        "sub": "sott. ITA"
+       },
+       "shows": {
+        "2026-11-17": [
+         {
+          "t": "12:40",
+          "hall": "Abanella",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-george-michael-the-faith-tour_2026-7c3d6c18-428f-47a8-bbd4-0769f3e65970/860320#sala"
          }
         ]
        }
@@ -2219,6 +2075,10 @@ window.DATA = {
          "19:15",
          "21:30"
         ],
+        "2026-11-17": [
+         "14:50",
+         "19:15"
+        ],
         "2026-11-18": [
          "14:50",
          "17:00",
@@ -2307,6 +2167,9 @@ window.DATA = {
         "2026-11-16": [
          "17:10"
         ],
+        "2026-11-17": [
+         "17:10"
+        ],
         "2026-11-18": [
          "17:10"
         ]
@@ -2374,6 +2237,9 @@ window.DATA = {
          "17:05",
          "21:30"
         ],
+        "2026-11-17": [
+         "17:00"
+        ],
         "2026-11-18": [
          "17:05",
          "21:30"
@@ -2404,6 +2270,11 @@ window.DATA = {
          "17:00",
          "19:15"
         ],
+        "2026-11-17": [
+         "14:50",
+         "17:15",
+         "19:15"
+        ],
         "2026-11-18": [
          "14:50",
          "17:00",
@@ -2420,6 +2291,9 @@ window.DATA = {
        },
        "shows": {
         "2026-11-16": [
+         "21:30"
+        ],
+        "2026-11-17": [
          "21:30"
         ],
         "2026-11-18": [
@@ -2451,6 +2325,10 @@ window.DATA = {
          "19:20",
          "21:30"
         ],
+        "2026-11-17": [
+         "15:00",
+         "21:30"
+        ],
         "2026-11-18": [
          "15:00",
          "19:20",
@@ -2480,6 +2358,10 @@ window.DATA = {
         "2026-11-16": [
          "15:00",
          "19:20"
+        ],
+        "2026-11-17": [
+         "15:00",
+         "17:10"
         ],
         "2026-11-18": [
          "15:00",
