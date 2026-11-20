@@ -1,5 +1,5 @@
 window.DATA = {
- "updated": "20/11/2026 17:04",
+ "updated": "20/11/2026 23:38",
  "updatedLong": "venerdì 20 novembre 2026",
  "today": "2026-11-20",
  "days": [
@@ -61,83 +61,6 @@ window.DATA = {
    "keepVisible": false,
    "noDayText": "Nessuno spettacolo in questo giorno.",
    "films": [
-    {
-     "id": "fjord",
-     "title": "FJORD",
-     "dir": "Cristian Mungiu",
-     "cast": "Sebastian Stan, Renate Reinsve, Giulia Nahmany, Alin Panc, Turid Rivertz Vatne, Ingvild Lien",
-     "meta": "Romania · Francia · Norvegia · Danimarca · Finlandia · Svezia · 2026 · 126′",
-     "genre": null,
-     "url": "https://bandhi.it/bah/beltrade/production/fjord/",
-     "poster": null,
-     "slots": [
-      {
-       "lang": {
-        "cat": "vo",
-        "audio": "V.O. inglese · rumeno · norvegese · svedese",
-        "sub": "sott. ITA"
-       },
-       "shows": {
-        "2026-11-20": [
-         "18:50"
-        ],
-        "2026-11-21": [
-         "16:50"
-        ],
-        "2026-11-22": [
-         "20:30"
-        ],
-        "2026-11-23": [
-         "17:00"
-        ],
-        "2026-11-24": [
-         "11:30"
-        ],
-        "2026-11-25": [
-         "15:00"
-        ]
-       },
-       "tbd": []
-      }
-     ]
-    },
-    {
-     "id": "l-essere-amato",
-     "title": "L’ESSERE AMATO",
-     "dir": "Rodrigo Sorogoyen",
-     "cast": "JAVIER BARDEM, VICTORIA LUENGO, MELINA MATTHEWS, MARINA FOÏS e MALENA VILLA",
-     "meta": "Spagna · Francia · 2026 · 135′",
-     "genre": null,
-     "url": "https://bandhi.it/bah/beltrade/production/lessere-amato/",
-     "poster": null,
-     "slots": [
-      {
-       "lang": {
-        "cat": "vo",
-        "audio": "V.O. spagnolo · inglese · francese",
-        "sub": "sott. ITA"
-       },
-       "shows": {
-        "2026-11-20": [
-         "21:30"
-        ],
-        "2026-11-21": [
-         "14:20"
-        ],
-        "2026-11-22": [
-         "18:00"
-        ],
-        "2026-11-23": [
-         "11:30"
-        ],
-        "2026-11-25": [
-         "17:40"
-        ]
-       },
-       "tbd": []
-      }
-     ]
-    },
     {
      "id": "twin-peaks-stag-03-ep-15-e-16",
      "title": "TWIN PEAKS – STAG. 03 EP 15 e 16",
@@ -215,6 +138,80 @@ window.DATA = {
         ],
         "2026-11-24": [
          "14:00"
+        ]
+       },
+       "tbd": []
+      }
+     ]
+    },
+    {
+     "id": "l-essere-amato",
+     "title": "L’ESSERE AMATO",
+     "dir": "Rodrigo Sorogoyen",
+     "cast": "JAVIER BARDEM, VICTORIA LUENGO, MELINA MATTHEWS, MARINA FOÏS e MALENA VILLA",
+     "meta": "Spagna · Francia · 2026 · 135′",
+     "genre": null,
+     "url": "https://bandhi.it/bah/beltrade/production/lessere-amato/",
+     "poster": null,
+     "slots": [
+      {
+       "lang": {
+        "cat": "vo",
+        "audio": "V.O. spagnolo · inglese · francese",
+        "sub": "sott. ITA"
+       },
+       "shows": {
+        "2026-11-21": [
+         "14:20"
+        ],
+        "2026-11-22": [
+         "18:00"
+        ],
+        "2026-11-23": [
+         "11:30"
+        ],
+        "2026-11-25": [
+         "17:40"
+        ]
+       },
+       "tbd": []
+      }
+     ]
+    },
+    {
+     "id": "fjord",
+     "title": "FJORD",
+     "dir": "Cristian Mungiu",
+     "cast": "Sebastian Stan, Renate Reinsve, Giulia Nahmany, Alin Panc, Turid Rivertz Vatne, Ingvild Lien",
+     "meta": "Romania · Francia · Norvegia · Danimarca · Finlandia · Svezia · 2026 · 126′",
+     "genre": null,
+     "url": "https://bandhi.it/bah/beltrade/production/fjord/",
+     "poster": null,
+     "slots": [
+      {
+       "lang": {
+        "cat": "vo",
+        "audio": "V.O. inglese · rumeno · norvegese · svedese",
+        "sub": "sott. ITA"
+       },
+       "shows": {
+        "2026-11-21": [
+         "16:50"
+        ],
+        "2026-11-22": [
+         "20:30"
+        ],
+        "2026-11-23": [
+         "17:00"
+        ],
+        "2026-11-24": [
+         "11:30"
+        ],
+        "2026-11-25": [
+         "15:00"
+        ],
+        "2026-11-26": [
+         "12:40"
         ]
        },
        "tbd": []
@@ -407,6 +404,9 @@ window.DATA = {
        "shows": {
         "2026-11-23": [
          "14:00"
+        ],
+        "2026-11-26": [
+         "17:20"
         ]
        },
        "tbd": []
@@ -490,6 +490,30 @@ window.DATA = {
      ]
     },
     {
+     "id": "e-andata-cosi",
+     "title": "È ANDATA COSÌ",
+     "dir": "Gianni Zanasi",
+     "cast": "Michele Riondino, Valerio Mastandrea, Valentina Lodovini, Leonardo Lidi e Indri Qyteza Shiroka",
+     "meta": "Italia · 2026 · 120′",
+     "genre": null,
+     "url": "https://bandhi.it/bah/beltrade/production/e-andata-cosi/",
+     "poster": null,
+     "slots": [
+      {
+       "lang": {
+        "cat": "ita",
+        "audio": "In italiano"
+       },
+       "shows": {
+        "2026-11-26": [
+         "15:20"
+        ]
+       },
+       "tbd": []
+      }
+     ]
+    },
+    {
      "id": "la-ricomparsa-delle-lucciole",
      "title": "LA RICOMPARSA DELLE LUCCIOLE",
      "dir": "Cristiano Giamporcaro",
@@ -512,6 +536,31 @@ window.DATA = {
        "tbd": []
       }
      ]
+    },
+    {
+     "id": "storie-parallele",
+     "title": "STORIE PARALLELE",
+     "dir": "Asghar Farhadi",
+     "cast": "Isabelle Huppert, Vincent Cassel e Virginie Efira",
+     "meta": "Francia · Italia · Belgio · Arabia Saudita · Stati Uniti · 2026 · 139′",
+     "genre": null,
+     "url": "https://bandhi.it/bah/beltrade/production/storie-parallele/",
+     "poster": null,
+     "slots": [
+      {
+       "lang": {
+        "cat": "vo",
+        "audio": "V.O. francese",
+        "sub": "sott. ITA"
+       },
+       "shows": {
+        "2026-11-26": [
+         "21:30"
+        ]
+       },
+       "tbd": []
+      }
+     ]
     }
    ],
    "extra": [
@@ -520,10 +569,10 @@ window.DATA = {
      "items": [
       "<b>TWIN PEAKS – STAG. 03 EP 17 e 18</b> — dal 27/11",
       "<b>IL GATTO COL CAPPELLO</b> — dal 28/11",
+      "<b>È ANDATA COSÌ</b> — dal 29/11",
       "<b>INDOCILI #2 - WAKING HOURS</b> — dal 01/12",
       "<b>SUCCEDERÀ QUESTA NOTTE</b> — dal 03/12",
-      "<b>CLUB KID</b> — dal 04/12",
-      "<b>COWARD</b> — dal 04/12"
+      "<b>CLUB KID</b> — dal 04/12"
      ]
     }
    ]
@@ -563,13 +612,6 @@ window.DATA = {
         "sub": "sott. ITA"
        },
        "shows": {
-        "2026-11-20": [
-         {
-          "t": "21:15",
-          "hall": "Astra",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-fjord_2026-3bc984fa-7b00-4788-bbaf-9be92c2954d0/862931#sala"
-         }
-        ],
         "2026-11-21": [
          {
           "t": "12:00",
@@ -656,7 +698,7 @@ window.DATA = {
          },
          {
           "t": "21:30",
-          "hall": "Astoria",
+          "hall": "Abanella",
           "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-fjord_2026-3bc984fa-7b00-4788-bbaf-9be92c2954d0/864443#sala"
          }
         ]
@@ -668,13 +710,6 @@ window.DATA = {
         "audio": "In italiano (doppiato)"
        },
        "shows": {
-        "2026-11-20": [
-         {
-          "t": "19:00",
-          "hall": "President",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/fjord_2026-833c7241-4862-4d86-aae5-153fad0b227d/862905#sala"
-         }
-        ],
         "2026-11-21": [
          {
           "t": "10:00",
@@ -760,6 +795,161 @@ window.DATA = {
      ]
     },
     {
+     "id": "minotaur-nel-labirinto-del-potere",
+     "title": "Minotaur nel labirinto del potere",
+     "orig": "minotaure",
+     "dir": "Andrey Zvyagintsev",
+     "cast": "Anatoliy Beliy, Juris Zagars, Varvara Shmykova",
+     "meta": "Francia · 2026 · 141′ · Crime, Dramma, Thriller",
+     "genre": null,
+     "url": "https://www.spaziocinema.info/film/minotaur-nel-labirinto-del-potere-minotaure",
+     "poster": "https://cdn.18tickets.net/ccb/uploads/film/playbill/122973/da262f67-ec2e-40a4-b804-fe5cee8f742d.jpg",
+     "plot": "Russia, 2022. quando gleb, un direttore aziendale di successo, si trova assediato da crescenti pressioni aziendali e da un mondo sempre più instabile, il crollo della…",
+     "age": "6+",
+     "slots": [
+      {
+       "lang": {
+        "cat": "ita",
+        "audio": "In italiano (doppiato)"
+       },
+       "shows": {
+        "2026-11-21": [
+         {
+          "t": "15:00",
+          "hall": "Abanella",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/minotaur-nel-labirinto-del-potere-minotaure-_2026/863553#sala"
+         }
+        ],
+        "2026-11-22": [
+         {
+          "t": "15:00",
+          "hall": "Abanella",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/minotaur-nel-labirinto-del-potere-minotaure-_2026-5c72380a-ebc1-45d8-8eed-a6c31b4b2937/865172#sala"
+         }
+        ],
+        "2026-11-23": [
+         {
+          "t": "15:00",
+          "hall": "Abanella",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/minotaur-nel-labirinto-del-potere-minotaure-_2026/864513#sala"
+         }
+        ],
+        "2026-11-24": [
+         {
+          "t": "12:00",
+          "hall": "Rubino",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/minotaur-nel-labirinto-del-potere-minotaure-_2026/864514#sala"
+         }
+        ],
+        "2026-11-25": [
+         {
+          "t": "10:30",
+          "hall": "Astoria",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/minotaur-nel-labirinto-del-potere-minotaure-_2026-a976d914-d406-4359-a62e-fe0d5a7fdb69/864544#sala"
+         },
+         {
+          "t": "15:00",
+          "hall": "Abanella",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/minotaur-nel-labirinto-del-potere-minotaure-_2026/864515#sala"
+         }
+        ]
+       }
+      },
+      {
+       "lang": {
+        "cat": "vo",
+        "audio": "V.O. russo",
+        "sub": "sott. ITA"
+       },
+       "shows": {
+        "2026-11-21": [
+         {
+          "t": "10:00",
+          "hall": "De amicis",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-minotaur-_2026/863454#sala"
+         },
+         {
+          "t": "21:40",
+          "hall": "Abanella",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-minotaur-_2026/863458#sala"
+         }
+        ],
+        "2026-11-22": [
+         {
+          "t": "12:15",
+          "hall": "De amicis",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-minotaur-_2026/863456#sala"
+         },
+         {
+          "t": "21:40",
+          "hall": "Abanella",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-minotaur-_2026/863457#sala"
+         }
+        ],
+        "2026-11-23": [
+         {
+          "t": "21:30",
+          "hall": "De amicis",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-minotaur-_2026/864512#sala"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "primetime",
+     "title": "Primetime",
+     "orig": null,
+     "dir": "L. Oppenheim",
+     "cast": "R. Pattinson, M. Wever, S. Gisondo",
+     "meta": "Stati Uniti · 2026 · 110′ · Drammatico",
+     "genre": null,
+     "url": "https://www.spaziocinema.info/film/v-o-sott-ita-primetime",
+     "poster": "https://cdn.18tickets.net/ccb/uploads/film/playbill/119642/99ba5b14-5000-44fb-9ed1-6f737137687d.jpg",
+     "plot": "Un potente racconto sulla spettacolarizzazione del male: nel 2006, chris hansen fa la storia della tv con il format to catch a predator, che smaschera in diretta…",
+     "age": "+10",
+     "slots": [
+      {
+       "lang": {
+        "cat": "eng",
+        "audio": "V.O. inglese",
+        "sub": "sott. ITA"
+       },
+       "shows": {
+        "2026-11-21": [
+         {
+          "t": "12:30",
+          "hall": "Abadan",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-primetime_2026/863464#sala"
+         }
+        ],
+        "2026-11-22": [
+         {
+          "t": "12:30",
+          "hall": "Abadan",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-primetime_2026/863465#sala"
+         }
+        ],
+        "2026-11-23": [
+         {
+          "t": "12:30",
+          "hall": "Obraz",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-primetime_2026/864522#sala"
+         }
+        ],
+        "2026-11-24": [
+         {
+          "t": "12:45",
+          "hall": "Astoria",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-primetime_2026/864523#sala"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
      "id": "la-gradiva",
      "title": "La Gradiva",
      "orig": null,
@@ -779,13 +969,6 @@ window.DATA = {
         "sub": "sott. ITA"
        },
        "shows": {
-        "2026-11-20": [
-         {
-          "t": "21:30",
-          "hall": "De amicis",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-la-gradiva_2026-2973e5c9-781b-48e6-8496-24c5560ef039/862854#sala"
-         }
-        ],
         "2026-11-21": [
          {
           "t": "17:00",
@@ -839,116 +1022,6 @@ window.DATA = {
      ]
     },
     {
-     "id": "minotaur",
-     "title": "Minotaur",
-     "orig": "minotaure",
-     "dir": "Andrey Zvyagintsev",
-     "cast": "Anatoliy Beliy, Juris Zagars, Varvara Shmykova",
-     "meta": "Francia · 2026 · 141′ · Crime, Dramma, Thriller",
-     "genre": null,
-     "url": "https://www.spaziocinema.info/film/v-o-sott-ita-minotaur",
-     "poster": "https://cdn.18tickets.net/ccb/uploads/film/playbill/123998/a00c6bd0-f4d0-41e1-9351-38f9d65fc3cf.jpg",
-     "plot": "Russia, 2022. quando gleb, un direttore aziendale di successo, si trova assediato da crescenti pressioni aziendali e da un mondo sempre più instabile, il crollo della…",
-     "age": "6+",
-     "slots": [
-      {
-       "lang": {
-        "cat": "vo",
-        "audio": "V.O. russo",
-        "sub": "sott. ITA"
-       },
-       "shows": {
-        "2026-11-20": [
-         {
-          "t": "21:30",
-          "hall": "Astoria",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-minotaur-_2026/863581#sala"
-         }
-        ],
-        "2026-11-21": [
-         {
-          "t": "10:00",
-          "hall": "De amicis",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-minotaur-_2026/863454#sala"
-         },
-         {
-          "t": "21:40",
-          "hall": "Abanella",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-minotaur-_2026/863458#sala"
-         }
-        ],
-        "2026-11-22": [
-         {
-          "t": "12:15",
-          "hall": "De amicis",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-minotaur-_2026/863456#sala"
-         },
-         {
-          "t": "21:40",
-          "hall": "Abanella",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-minotaur-_2026/863457#sala"
-         }
-        ],
-        "2026-11-23": [
-         {
-          "t": "21:30",
-          "hall": "De amicis",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-minotaur-_2026/864512#sala"
-         }
-        ]
-       }
-      },
-      {
-       "lang": {
-        "cat": "ita",
-        "audio": "In italiano (doppiato)"
-       },
-       "shows": {
-        "2026-11-21": [
-         {
-          "t": "15:00",
-          "hall": "Abanella",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/minotaur-nel-labirinto-del-potere-minotaure-_2026/863553#sala"
-         }
-        ],
-        "2026-11-22": [
-         {
-          "t": "15:00",
-          "hall": "Abanella",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/minotaur-nel-labirinto-del-potere-minotaure-_2026-5c72380a-ebc1-45d8-8eed-a6c31b4b2937/865172#sala"
-         }
-        ],
-        "2026-11-23": [
-         {
-          "t": "15:00",
-          "hall": "Abanella",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/minotaur-nel-labirinto-del-potere-minotaure-_2026/864513#sala"
-         }
-        ],
-        "2026-11-24": [
-         {
-          "t": "12:00",
-          "hall": "Rubino",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/minotaur-nel-labirinto-del-potere-minotaure-_2026/864514#sala"
-         }
-        ],
-        "2026-11-25": [
-         {
-          "t": "10:30",
-          "hall": "Astoria",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/minotaur-nel-labirinto-del-potere-minotaure-_2026-a976d914-d406-4359-a62e-fe0d5a7fdb69/864544#sala"
-         },
-         {
-          "t": "15:00",
-          "hall": "Abanella",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/minotaur-nel-labirinto-del-potere-minotaure-_2026/864515#sala"
-         }
-        ]
-       }
-      }
-     ]
-    },
-    {
      "id": "l-estranea",
      "title": "L'estranea",
      "orig": null,
@@ -967,18 +1040,6 @@ window.DATA = {
         "audio": "In italiano"
        },
        "shows": {
-        "2026-11-20": [
-         {
-          "t": "17:10",
-          "hall": "Obraz",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/l-estranea_2026-7a1d5e14-ab72-4f5d-8f59-e81eaeeb2018/862966#sala"
-         },
-         {
-          "t": "21:41",
-          "hall": "Abanella",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/l-estranea_2026-7a1d5e14-ab72-4f5d-8f59-e81eaeeb2018/863584#sala"
-         }
-        ],
         "2026-11-21": [
          {
           "t": "17:10",
@@ -1016,12 +1077,83 @@ window.DATA = {
           "hall": "De amicis",
           "link": "https://anteo.spaziocinema.18tickets.it/film/l-estranea_2026-7a1d5e14-ab72-4f5d-8f59-e81eaeeb2018/864873#sala"
          }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "il-canto-della-foresta",
+     "title": "Il canto della foresta",
+     "orig": "le chant des forets",
+     "dir": "Vincent Munier",
+     "cast": "Michel Munier, Simon Munier, Vincent Munier",
+     "meta": "Francia · 2025 · 91′ · Documentario",
+     "genre": null,
+     "url": "https://www.spaziocinema.info/film/il-canto-della-foresta-le-chant-des-forets",
+     "poster": "https://cdn.18tickets.net/ccb/uploads/film/playbill/128352/9c5689dc-ecee-4011-9681-aa9235214592.jpg",
+     "plot": "Un nonno, suo figlio e il figlio del figlio: michel, vincent (il regista) e simon. tre maschi di età diverse che condividono l'esperienza, più che consapevoli della sua…",
+     "age": "T",
+     "slots": [
+      {
+       "lang": {
+        "cat": "ita",
+        "audio": "In italiano (doppiato)"
+       },
+       "shows": {
+        "2026-11-21": [
+         {
+          "t": "10:00",
+          "hall": "Rubino",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-07ccf0f6-5894-4101-8f39-b4fc7340a313/863518#sala"
+         },
+         {
+          "t": "14:45",
+          "hall": "Astra",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-07ccf0f6-5894-4101-8f39-b4fc7340a313/863469#sala"
+         }
+        ],
+        "2026-11-22": [
+         {
+          "t": "10:00",
+          "hall": "De amicis",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-bf3ba478-208e-4a4b-9067-c12865dcda13/865174#sala"
+         },
+         {
+          "t": "14:45",
+          "hall": "Astra",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-bf3ba478-208e-4a4b-9067-c12865dcda13/865173#sala"
+         },
+         {
+          "t": "21:00",
+          "hall": "Nobel",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-6a08fe4b-232a-4548-96f0-9c4babf4952c/863018#sala"
+         }
+        ],
+        "2026-11-23": [
+         {
+          "t": "10:00",
+          "hall": "Abanella",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-07ccf0f6-5894-4101-8f39-b4fc7340a313/864462#sala"
+         },
+         {
+          "t": "14:45",
+          "hall": "Astoria",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-07ccf0f6-5894-4101-8f39-b4fc7340a313/866066#sala"
+         }
+        ],
+        "2026-11-24": [
+         {
+          "t": "14:40",
+          "hall": "Obraz",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-07ccf0f6-5894-4101-8f39-b4fc7340a313/864463#sala"
+         }
         ],
         "2026-11-25": [
          {
-          "t": "21:40",
-          "hall": "Abanella",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/l-estranea_2026-7a1d5e14-ab72-4f5d-8f59-e81eaeeb2018/864518#sala"
+          "t": "14:45",
+          "hall": "Astra",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-07ccf0f6-5894-4101-8f39-b4fc7340a313/864464#sala"
          }
         ]
        }
@@ -1047,28 +1179,6 @@ window.DATA = {
         "audio": "In italiano"
        },
        "shows": {
-        "2026-11-20": [
-         {
-          "t": "17:40",
-          "hall": "Astoria",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/il-fuoco-che-ti-porti-dentro_2026-89fe629b-f90f-486a-a9f6-2c0cea8d3b0c/862953#sala"
-         },
-         {
-          "t": "19:35",
-          "hall": "Astoria",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/il-fuoco-che-ti-porti-dentro_2026-89fe629b-f90f-486a-a9f6-2c0cea8d3b0c/862954#sala"
-         },
-         {
-          "t": "21:00",
-          "hall": "Nobel",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/il-fuoco-che-ti-porti-dentro_2026-d8d2bb79-bdbc-4347-9340-df90346a5214/863015#sala"
-         },
-         {
-          "t": "21:45",
-          "hall": "President",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/il-fuoco-che-ti-porti-dentro_2026-89fe629b-f90f-486a-a9f6-2c0cea8d3b0c/862959#sala"
-         }
-        ],
         "2026-11-21": [
          {
           "t": "12:30",
@@ -1189,14 +1299,14 @@ window.DATA = {
           "link": "https://anteo.spaziocinema.18tickets.it/film/il-fuoco-che-ti-porti-dentro_2026-89fe629b-f90f-486a-a9f6-2c0cea8d3b0c/864419#sala"
          },
          {
-          "t": "19:35",
-          "hall": "Astoria",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/il-fuoco-che-ti-porti-dentro_2026-89fe629b-f90f-486a-a9f6-2c0cea8d3b0c/864420#sala"
+          "t": "19:30",
+          "hall": "Obraz",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/il-fuoco-che-ti-porti-dentro_2026-89fe629b-f90f-486a-a9f6-2c0cea8d3b0c/866127#sala"
          },
          {
-          "t": "21:45",
+          "t": "21:30",
           "hall": "Obraz",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/il-fuoco-che-ti-porti-dentro_2026-89fe629b-f90f-486a-a9f6-2c0cea8d3b0c/864421#sala"
+          "link": "https://anteo.spaziocinema.18tickets.it/film/il-fuoco-che-ti-porti-dentro_2026-89fe629b-f90f-486a-a9f6-2c0cea8d3b0c/866128#sala"
          }
         ]
        }
@@ -1222,13 +1332,6 @@ window.DATA = {
         "audio": "In italiano (doppiato)"
        },
        "shows": {
-        "2026-11-20": [
-         {
-          "t": "19:50",
-          "hall": "De amicis",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/fatherland_2026-8d1b510a-12f8-4527-b949-dc6a97836d5d/863008#sala"
-         }
-        ],
         "2026-11-21": [
          {
           "t": "19:50",
@@ -1279,6 +1382,94 @@ window.DATA = {
      ]
     },
     {
+     "id": "naza",
+     "title": "Naza",
+     "orig": null,
+     "dir": "Yuval Abraham E Rachel Szor",
+     "cast": "Rachel Szor, Yuval Abraham",
+     "meta": "Regno Unito · 2026 · 80′ · Documentario",
+     "genre": null,
+     "url": "https://www.spaziocinema.info/film/v-o-sott-ita-naza",
+     "poster": "https://cdn.18tickets.net/ccb/uploads/film/playbill/111522/ec4770c9-9fc4-414a-97c7-b21404d7b9e7.jpg",
+     "plot": "Nel corso di conversazioni segrete sui tetti di tel aviv, di notte, i meccanismi alla base della sistematica e calcolata uccisione di massa di civili palestinesi a gaza…",
+     "age": "10+",
+     "slots": [
+      {
+       "lang": {
+        "cat": "eng",
+        "audio": "V.O. ebraico · inglese",
+        "sub": "sott. ITA"
+       },
+       "shows": {
+        "2026-11-21": [
+         {
+          "t": "12:00",
+          "hall": "Rubino",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/naza_2026/863461#sala"
+         }
+        ],
+        "2026-11-22": [
+         {
+          "t": "12:15",
+          "hall": "Rubino",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/naza_2026/863462#sala"
+         }
+        ],
+        "2026-11-25": [
+         {
+          "t": "13:10",
+          "hall": "Astoria",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/naza_2026/864521#sala"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "la-terra-della-grande-promessa",
+     "title": "La terra della grande promessa",
+     "orig": null,
+     "dir": "Andrzej Wajda",
+     "cast": "Daniel Olbrychski, Wojciech Pszoniak, Andrzej Seweryn",
+     "meta": "Polonia · 2026 · 179′ · Dramma, Storia",
+     "genre": null,
+     "url": "https://www.spaziocinema.info/film/la-terra-della-grande-promessa-1",
+     "poster": "https://cdn.18tickets.net/ccb/uploads/film/playbill/123369/c5774128-ec7a-4b1d-bf49-c7ab088d21dd.jpg",
+     "plot": "Fine ottocento. karol borowiecki (daniel olbrychski), giovane nobile di lodz impiegato come capo ingegnere tessile, progetta di costruire una fabbrica propria e viene…",
+     "age": "+18",
+     "slots": [
+      {
+       "lang": {
+        "cat": "vo",
+        "audio": "V.O. polacco",
+        "sub": "sott. ITA"
+       },
+       "shows": {
+        "2026-11-21": [
+         {
+          "t": "10:00",
+          "hall": "Abanella",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/la-terra-della-grande-promessa_2026/848671#sala"
+         }
+        ],
+        "2026-11-22": [
+         {
+          "t": "10:00",
+          "hall": "Abanella",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/le-nozze_2026/848672#sala"
+         },
+         {
+          "t": "12:00",
+          "hall": "Abanella",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/direttore-d-orchestra_2026/848673#sala"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
      "id": "il-rumore-delle-cose-nuove",
      "title": "Il rumore delle cose nuove",
      "orig": null,
@@ -1297,13 +1488,6 @@ window.DATA = {
         "audio": "In italiano"
        },
        "shows": {
-        "2026-11-20": [
-         {
-          "t": "19:25",
-          "hall": "Obraz",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/il-rumore-delle-cose-nuove_2026-f24fda47-4556-4769-a4ea-ead3a4acafa6/862939#sala"
-         }
-        ],
         "2026-11-21": [
          {
           "t": "12:40",
@@ -1372,11 +1556,6 @@ window.DATA = {
           "t": "17:15",
           "hall": "Obraz",
           "link": "https://anteo.spaziocinema.18tickets.it/film/il-rumore-delle-cose-nuove_2026-f24fda47-4556-4769-a4ea-ead3a4acafa6/864426#sala"
-         },
-         {
-          "t": "19:30",
-          "hall": "Obraz",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/il-rumore-delle-cose-nuove_2026-f24fda47-4556-4769-a4ea-ead3a4acafa6/864427#sala"
          }
         ]
        }
@@ -1402,18 +1581,6 @@ window.DATA = {
         "audio": "In italiano (doppiato)"
        },
        "shows": {
-        "2026-11-20": [
-         {
-          "t": "17:10",
-          "hall": "De amicis",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/l-essere-amato-el-ser-querido-_2026-15492c65-2ff2-4ee0-9aa0-0068d59d7b60/862971#sala"
-         },
-         {
-          "t": "21:45",
-          "hall": "Rubino",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/l-essere-amato-el-ser-querido-_2026-15492c65-2ff2-4ee0-9aa0-0068d59d7b60/862973#sala"
-         }
-        ],
         "2026-11-21": [
          {
           "t": "10:00",
@@ -1488,13 +1655,6 @@ window.DATA = {
         "sub": "sott. ITA"
        },
        "shows": {
-        "2026-11-20": [
-         {
-          "t": "19:10",
-          "hall": "Rubino",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/l-essere-amato-el-ser-querido-_2026-2f9e213a-46e5-4ee6-ace4-ee499e0ac953/862975#sala"
-         }
-        ],
         "2026-11-21": [
          {
           "t": "14:00",
@@ -1555,6 +1715,70 @@ window.DATA = {
      ]
     },
     {
+     "id": "je-so-pazzo",
+     "title": "Je so pazzo",
+     "orig": null,
+     "dir": "Nicola Prosatore",
+     "cast": "Massimiliano Caiazzo, Mariasole Pollio, Giovanni Ludeno",
+     "meta": "Italia · 2026 · 105′ · Dramma, Musica",
+     "genre": null,
+     "url": "https://www.spaziocinema.info/film/je-so-pazzo-2",
+     "poster": "https://cdn.18tickets.net/ccb/uploads/film/playbill/119707/7bf56574-147f-4c36-b5ec-bcaaa8cdbb3c.jpg",
+     "plot": "Je so’ pazzo è un ritratto intenso di pino daniele, un’anima ribelle nata nei vicoli di napoli, che ha rivoluzionato la musica italiana fondendo blues, jazz e tradizione…",
+     "age": "T",
+     "slots": [
+      {
+       "lang": {
+        "cat": "ita",
+        "audio": "In italiano"
+       },
+       "shows": {
+        "2026-11-21": [
+         {
+          "t": "10:30",
+          "hall": "President",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/je-so-pazzo_2026-d00ab3b4-33cb-4c4c-96cd-0ef018a0075b/863557#sala"
+         }
+        ],
+        "2026-11-22": [
+         {
+          "t": "10:30",
+          "hall": "President",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/je-so-pazzo_2026-a1233392-6e04-43db-8236-8a5971ece970/863591#sala"
+         }
+        ],
+        "2026-11-24": [
+         {
+          "t": "10:30",
+          "hall": "Astoria",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/je-so-pazzo_2026-224fc654-0d8b-42b7-820d-306be71e6316/863882#sala"
+         },
+         {
+          "t": "15:00",
+          "hall": "Astoria",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/je-so-pazzo_2026-224fc654-0d8b-42b7-820d-306be71e6316/863883#sala"
+         },
+         {
+          "t": "17:10",
+          "hall": "Astoria",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/je-so-pazzo_2026-224fc654-0d8b-42b7-820d-306be71e6316/863884#sala"
+         },
+         {
+          "t": "19:20",
+          "hall": "Obraz",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/je-so-pazzo_2026-224fc654-0d8b-42b7-820d-306be71e6316/863892#sala"
+         },
+         {
+          "t": "21:30",
+          "hall": "Obraz",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/je-so-pazzo_2026-224fc654-0d8b-42b7-820d-306be71e6316/863893#sala"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
      "id": "look-back",
      "title": "Look back",
      "orig": null,
@@ -1569,81 +1793,11 @@ window.DATA = {
      "slots": [
       {
        "lang": {
-        "cat": "ita",
-        "audio": "In italiano (doppiato)"
-       },
-       "shows": {
-        "2026-11-20": [
-         {
-          "t": "17:40",
-          "hall": "Abanella",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/look-back-_2026-04750a07-ae3d-420e-804c-d2f042c34d0f/863000#sala"
-         },
-         {
-          "t": "21:45",
-          "hall": "Abadan",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/look-back-_2026-04750a07-ae3d-420e-804c-d2f042c34d0f/862999#sala"
-         }
-        ],
-        "2026-11-21": [
-         {
-          "t": "17:40",
-          "hall": "Abanella",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/look-back-_2026-04750a07-ae3d-420e-804c-d2f042c34d0f/863547#sala"
-         },
-         {
-          "t": "21:45",
-          "hall": "Abadan",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/look-back-_2026-04750a07-ae3d-420e-804c-d2f042c34d0f/863550#sala"
-         }
-        ],
-        "2026-11-22": [
-         {
-          "t": "17:40",
-          "hall": "Abanella",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/look-back-_2026-04750a07-ae3d-420e-804c-d2f042c34d0f/863548#sala"
-         },
-         {
-          "t": "21:45",
-          "hall": "Abadan",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/look-back-_2026-04750a07-ae3d-420e-804c-d2f042c34d0f/863549#sala"
-         }
-        ],
-        "2026-11-23": [
-         {
-          "t": "15:00",
-          "hall": "De amicis",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/look-back-_2026-04750a07-ae3d-420e-804c-d2f042c34d0f/864495#sala"
-         }
-        ],
-        "2026-11-25": [
-         {
-          "t": "17:40",
-          "hall": "Abanella",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/look-back-_2026-04750a07-ae3d-420e-804c-d2f042c34d0f/864496#sala"
-         },
-         {
-          "t": "21:45",
-          "hall": "Abadan",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/look-back-_2026-04750a07-ae3d-420e-804c-d2f042c34d0f/864525#sala"
-         }
-        ]
-       }
-      },
-      {
-       "lang": {
         "cat": "vo",
         "audio": "V.O. giapponese",
         "sub": "sott. ITA"
        },
        "shows": {
-        "2026-11-20": [
-         {
-          "t": "19:40",
-          "hall": "Abanella",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-look-back_2026/862898#sala"
-         }
-        ],
         "2026-11-21": [
          {
           "t": "10:00",
@@ -1720,6 +1874,57 @@ window.DATA = {
          }
         ]
        }
+      },
+      {
+       "lang": {
+        "cat": "ita",
+        "audio": "In italiano (doppiato)"
+       },
+       "shows": {
+        "2026-11-21": [
+         {
+          "t": "17:40",
+          "hall": "Abanella",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/look-back-_2026-04750a07-ae3d-420e-804c-d2f042c34d0f/863547#sala"
+         },
+         {
+          "t": "21:45",
+          "hall": "Abadan",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/look-back-_2026-04750a07-ae3d-420e-804c-d2f042c34d0f/863550#sala"
+         }
+        ],
+        "2026-11-22": [
+         {
+          "t": "17:40",
+          "hall": "Abanella",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/look-back-_2026-04750a07-ae3d-420e-804c-d2f042c34d0f/863548#sala"
+         },
+         {
+          "t": "21:45",
+          "hall": "Abadan",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/look-back-_2026-04750a07-ae3d-420e-804c-d2f042c34d0f/863549#sala"
+         }
+        ],
+        "2026-11-23": [
+         {
+          "t": "15:00",
+          "hall": "De amicis",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/look-back-_2026-04750a07-ae3d-420e-804c-d2f042c34d0f/864495#sala"
+         }
+        ],
+        "2026-11-25": [
+         {
+          "t": "17:40",
+          "hall": "Abanella",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/look-back-_2026-04750a07-ae3d-420e-804c-d2f042c34d0f/864496#sala"
+         },
+         {
+          "t": "21:45",
+          "hall": "Abadan",
+          "link": "https://anteo.spaziocinema.18tickets.it/film/look-back-_2026-04750a07-ae3d-420e-804c-d2f042c34d0f/864525#sala"
+         }
+        ]
+       }
       }
      ]
     },
@@ -1742,13 +1947,6 @@ window.DATA = {
         "audio": "In italiano (doppiato)"
        },
        "shows": {
-        "2026-11-20": [
-         {
-          "t": "21:30",
-          "hall": "Excelsior",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/wild-horse-nine_2026-9a4c11f3-5920-4421-9817-dd68613d6ff0/862880#sala"
-         }
-        ],
         "2026-11-21": [
          {
           "t": "12:30",
@@ -1848,13 +2046,6 @@ window.DATA = {
         "sub": "sott. ITA"
        },
        "shows": {
-        "2026-11-20": [
-         {
-          "t": "19:15",
-          "hall": "Excelsior",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-wild-horse-nine_2026-404dad21-a6e6-4504-8b17-3c520efd67c3/862868#sala"
-         }
-        ],
         "2026-11-21": [
          {
           "t": "10:15",
@@ -1963,23 +2154,6 @@ window.DATA = {
         "audio": "In italiano"
        },
        "shows": {
-        "2026-11-20": [
-         {
-          "t": "17:15",
-          "hall": "Abadan",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/862990#sala"
-         },
-         {
-          "t": "18:30",
-          "hall": "Nobel",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-df78d352-b43b-4e8b-bc60-963c234584e7/863012#sala"
-         },
-         {
-          "t": "19:30",
-          "hall": "Abadan",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/dio-ride_2026-f5f36df9-2d88-4e4d-b567-0c804098d93e/862991#sala"
-         }
-        ],
         "2026-11-21": [
          {
           "t": "12:45",
@@ -2073,13 +2247,6 @@ window.DATA = {
         "audio": "In italiano"
        },
        "shows": {
-        "2026-11-20": [
-         {
-          "t": "21:40",
-          "hall": "Obraz",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/se-domani-non-torno_2026-7b237ae5-32c0-4df9-aabe-1fb2641f423c/862982#sala"
-         }
-        ],
         "2026-11-21": [
          {
           "t": "15:00",
@@ -2158,18 +2325,6 @@ window.DATA = {
         "audio": "In italiano"
        },
        "shows": {
-        "2026-11-20": [
-         {
-          "t": "18:30",
-          "hall": "Anteo spazio realta' virtuale",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/firenze-vr-me-moire-the-italian-baba-proto-vr_2025/863024#sala"
-         },
-         {
-          "t": "20:30",
-          "hall": "Anteo spazio realta' virtuale",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/firenze-vr-me-moire-the-italian-baba-proto-vr_2025/863025#sala"
-         }
-        ],
         "2026-11-21": [
          {
           "t": "18:30",
@@ -2228,288 +2383,6 @@ window.DATA = {
           "t": "20:30",
           "hall": "Anteo spazio realta' virtuale",
           "link": "https://anteo.spaziocinema.18tickets.it/film/firenze-vr-me-moire-the-italian-baba-proto-vr_2025/863930#sala"
-         }
-        ]
-       }
-      }
-     ]
-    },
-    {
-     "id": "primetime",
-     "title": "Primetime",
-     "orig": null,
-     "dir": "L. Oppenheim",
-     "cast": "R. Pattinson, M. Wever, S. Gisondo",
-     "meta": "Stati Uniti · 2026 · 110′ · Drammatico",
-     "genre": null,
-     "url": "https://www.spaziocinema.info/film/v-o-sott-ita-primetime",
-     "poster": "https://cdn.18tickets.net/ccb/uploads/film/playbill/119642/99ba5b14-5000-44fb-9ed1-6f737137687d.jpg",
-     "plot": "Un potente racconto sulla spettacolarizzazione del male: nel 2006, chris hansen fa la storia della tv con il format to catch a predator, che smaschera in diretta…",
-     "age": "+10",
-     "slots": [
-      {
-       "lang": {
-        "cat": "eng",
-        "audio": "V.O. inglese",
-        "sub": "sott. ITA"
-       },
-       "shows": {
-        "2026-11-21": [
-         {
-          "t": "12:30",
-          "hall": "Abadan",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-primetime_2026/863464#sala"
-         }
-        ],
-        "2026-11-22": [
-         {
-          "t": "12:30",
-          "hall": "Abadan",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-primetime_2026/863465#sala"
-         }
-        ],
-        "2026-11-23": [
-         {
-          "t": "12:30",
-          "hall": "Obraz",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-primetime_2026/864522#sala"
-         }
-        ],
-        "2026-11-24": [
-         {
-          "t": "12:45",
-          "hall": "Astoria",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/v-o-sott-ita-primetime_2026/864523#sala"
-         }
-        ]
-       }
-      }
-     ]
-    },
-    {
-     "id": "il-canto-della-foresta",
-     "title": "Il canto della foresta",
-     "orig": "le chant des forets",
-     "dir": "Vincent Munier",
-     "cast": "Michel Munier, Simon Munier, Vincent Munier",
-     "meta": "Francia · 2025 · 91′ · Documentario",
-     "genre": null,
-     "url": "https://www.spaziocinema.info/film/il-canto-della-foresta-le-chant-des-forets",
-     "poster": "https://cdn.18tickets.net/ccb/uploads/film/playbill/128352/9c5689dc-ecee-4011-9681-aa9235214592.jpg",
-     "plot": "Un nonno, suo figlio e il figlio del figlio: michel, vincent (il regista) e simon. tre maschi di età diverse che condividono l'esperienza, più che consapevoli della sua…",
-     "age": "T",
-     "slots": [
-      {
-       "lang": {
-        "cat": "ita",
-        "audio": "In italiano (doppiato)"
-       },
-       "shows": {
-        "2026-11-21": [
-         {
-          "t": "10:00",
-          "hall": "Rubino",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-07ccf0f6-5894-4101-8f39-b4fc7340a313/863518#sala"
-         },
-         {
-          "t": "14:45",
-          "hall": "Astra",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-07ccf0f6-5894-4101-8f39-b4fc7340a313/863469#sala"
-         }
-        ],
-        "2026-11-22": [
-         {
-          "t": "10:00",
-          "hall": "De amicis",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-bf3ba478-208e-4a4b-9067-c12865dcda13/865174#sala"
-         },
-         {
-          "t": "14:45",
-          "hall": "Astra",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-bf3ba478-208e-4a4b-9067-c12865dcda13/865173#sala"
-         },
-         {
-          "t": "21:00",
-          "hall": "Nobel",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-6a08fe4b-232a-4548-96f0-9c4babf4952c/863018#sala"
-         }
-        ],
-        "2026-11-23": [
-         {
-          "t": "10:00",
-          "hall": "Abanella",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-07ccf0f6-5894-4101-8f39-b4fc7340a313/864462#sala"
-         },
-         {
-          "t": "14:45",
-          "hall": "Astoria",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-07ccf0f6-5894-4101-8f39-b4fc7340a313/866066#sala"
-         }
-        ],
-        "2026-11-24": [
-         {
-          "t": "14:40",
-          "hall": "Obraz",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-07ccf0f6-5894-4101-8f39-b4fc7340a313/864463#sala"
-         }
-        ],
-        "2026-11-25": [
-         {
-          "t": "14:45",
-          "hall": "Astra",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/il-canto-della-foresta-le-chant-des-forets-_2025-07ccf0f6-5894-4101-8f39-b4fc7340a313/864464#sala"
-         }
-        ]
-       }
-      }
-     ]
-    },
-    {
-     "id": "naza",
-     "title": "Naza",
-     "orig": null,
-     "dir": "Yuval Abraham E Rachel Szor",
-     "cast": "Rachel Szor, Yuval Abraham",
-     "meta": "Regno Unito · 2026 · 80′ · Documentario",
-     "genre": null,
-     "url": "https://www.spaziocinema.info/film/v-o-sott-ita-naza",
-     "poster": "https://cdn.18tickets.net/ccb/uploads/film/playbill/111522/ec4770c9-9fc4-414a-97c7-b21404d7b9e7.jpg",
-     "plot": "Nel corso di conversazioni segrete sui tetti di tel aviv, di notte, i meccanismi alla base della sistematica e calcolata uccisione di massa di civili palestinesi a gaza…",
-     "age": "10+",
-     "slots": [
-      {
-       "lang": {
-        "cat": "eng",
-        "audio": "V.O. ebraico · inglese",
-        "sub": "sott. ITA"
-       },
-       "shows": {
-        "2026-11-21": [
-         {
-          "t": "12:00",
-          "hall": "Rubino",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/naza_2026/863461#sala"
-         }
-        ],
-        "2026-11-22": [
-         {
-          "t": "12:15",
-          "hall": "Rubino",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/naza_2026/863462#sala"
-         }
-        ],
-        "2026-11-25": [
-         {
-          "t": "13:10",
-          "hall": "Astoria",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/naza_2026/864521#sala"
-         }
-        ]
-       }
-      }
-     ]
-    },
-    {
-     "id": "la-terra-della-grande-promessa",
-     "title": "La terra della grande promessa",
-     "orig": null,
-     "dir": "Andrzej Wajda",
-     "cast": "Daniel Olbrychski, Wojciech Pszoniak, Andrzej Seweryn",
-     "meta": "Polonia · 2026 · 179′ · Dramma, Storia",
-     "genre": null,
-     "url": "https://www.spaziocinema.info/film/la-terra-della-grande-promessa-1",
-     "poster": "https://cdn.18tickets.net/ccb/uploads/film/playbill/123369/c5774128-ec7a-4b1d-bf49-c7ab088d21dd.jpg",
-     "plot": "Fine ottocento. karol borowiecki (daniel olbrychski), giovane nobile di lodz impiegato come capo ingegnere tessile, progetta di costruire una fabbrica propria e viene…",
-     "age": "+18",
-     "slots": [
-      {
-       "lang": {
-        "cat": "vo",
-        "audio": "V.O. polacco",
-        "sub": "sott. ITA"
-       },
-       "shows": {
-        "2026-11-21": [
-         {
-          "t": "10:00",
-          "hall": "Abanella",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/la-terra-della-grande-promessa_2026/848671#sala"
-         }
-        ],
-        "2026-11-22": [
-         {
-          "t": "10:00",
-          "hall": "Abanella",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/le-nozze_2026/848672#sala"
-         },
-         {
-          "t": "12:00",
-          "hall": "Abanella",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/direttore-d-orchestra_2026/848673#sala"
-         }
-        ]
-       }
-      }
-     ]
-    },
-    {
-     "id": "je-so-pazzo",
-     "title": "Je so pazzo",
-     "orig": null,
-     "dir": "Nicola Prosatore",
-     "cast": "Massimiliano Caiazzo, Mariasole Pollio, Giovanni Ludeno",
-     "meta": "Italia · 2026 · 105′ · Dramma, Musica",
-     "genre": null,
-     "url": "https://www.spaziocinema.info/film/je-so-pazzo-2",
-     "poster": "https://cdn.18tickets.net/ccb/uploads/film/playbill/119707/7bf56574-147f-4c36-b5ec-bcaaa8cdbb3c.jpg",
-     "plot": "Je so’ pazzo è un ritratto intenso di pino daniele, un’anima ribelle nata nei vicoli di napoli, che ha rivoluzionato la musica italiana fondendo blues, jazz e tradizione…",
-     "age": "T",
-     "slots": [
-      {
-       "lang": {
-        "cat": "ita",
-        "audio": "In italiano"
-       },
-       "shows": {
-        "2026-11-21": [
-         {
-          "t": "10:30",
-          "hall": "President",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/je-so-pazzo_2026-d00ab3b4-33cb-4c4c-96cd-0ef018a0075b/863557#sala"
-         }
-        ],
-        "2026-11-22": [
-         {
-          "t": "10:30",
-          "hall": "President",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/je-so-pazzo_2026-a1233392-6e04-43db-8236-8a5971ece970/863591#sala"
-         }
-        ],
-        "2026-11-24": [
-         {
-          "t": "10:30",
-          "hall": "Astoria",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/je-so-pazzo_2026-224fc654-0d8b-42b7-820d-306be71e6316/863882#sala"
-         },
-         {
-          "t": "15:00",
-          "hall": "Astoria",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/je-so-pazzo_2026-224fc654-0d8b-42b7-820d-306be71e6316/863883#sala"
-         },
-         {
-          "t": "17:10",
-          "hall": "Astoria",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/je-so-pazzo_2026-224fc654-0d8b-42b7-820d-306be71e6316/863884#sala"
-         },
-         {
-          "t": "19:20",
-          "hall": "Obraz",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/je-so-pazzo_2026-224fc654-0d8b-42b7-820d-306be71e6316/863892#sala"
-         },
-         {
-          "t": "21:30",
-          "hall": "Obraz",
-          "link": "https://anteo.spaziocinema.18tickets.it/film/je-so-pazzo_2026-224fc654-0d8b-42b7-820d-306be71e6316/863893#sala"
          }
         ]
        }
@@ -2882,6 +2755,7 @@ window.DATA = {
     {
      "h": "Eventi speciali Anteo Palazzo",
      "items": [
+      "<span class=\"when\">Sabato 28 novembre, ore 10.30, Anteo Palazzo del Cinema</span> — <b>È ANDATA COSÌ</b> · <a href=\"https://www.spaziocinema.info/milano/eventi-e-rassegne/e-andata-cosi-lezione-di-cinema-con-il-regista-gianni-zanasi-michele-riondino-e-valentina-lodovini\" target=\"_blank\" rel=\"noopener\">dettagli ↗</a>",
       "<span class=\"when\">Domenica 22 novembre, ore 15.00, Anteo Palazzo del Cinema</span> — <b>IL FUOCO CHE TI PORTI DENTRO</b> · <a href=\"https://www.spaziocinema.info/milano/eventi-e-rassegne/il-fuoco-che-ti-porti-dentro-lezione-di-cinema-con-il-regista-edoardo-de-angelis-e-gli-attori-vanessa-scalera-e-lino-musella\" target=\"_blank\" rel=\"noopener\">dettagli ↗</a>"
      ]
     }
@@ -2936,6 +2810,11 @@ window.DATA = {
          "14:50",
          "17:00",
          "19:15"
+        ],
+        "2026-11-24": [
+         "14:50",
+         "17:00",
+         "19:15"
         ]
        },
        "anteprima": null
@@ -2959,6 +2838,9 @@ window.DATA = {
        },
        "shows": {
         "2026-11-23": [
+         "14:40"
+        ],
+        "2026-11-24": [
          "14:40"
         ]
        },
@@ -2992,6 +2874,9 @@ window.DATA = {
          "21:15"
         ],
         "2026-11-23": [
+         "21:15"
+        ],
+        "2026-11-24": [
          "21:15"
         ]
        },
@@ -3030,6 +2915,10 @@ window.DATA = {
         "2026-11-23": [
          "15:00",
          "18:00"
+        ],
+        "2026-11-24": [
+         "15:00",
+         "18:00"
         ]
        },
        "anteprima": null
@@ -3051,6 +2940,9 @@ window.DATA = {
          "21:00"
         ],
         "2026-11-23": [
+         "21:00"
+        ],
+        "2026-11-24": [
          "21:00"
         ]
        },
@@ -3122,6 +3014,12 @@ window.DATA = {
          "17:00",
          "19:15",
          "21:30"
+        ],
+        "2026-11-24": [
+         "14:50",
+         "16:55",
+         "19:10",
+         "21:30"
         ]
        },
        "anteprima": null
@@ -3151,6 +3049,9 @@ window.DATA = {
          "21:30"
         ],
         "2026-11-23": [
+         "21:30"
+        ],
+        "2026-11-24": [
          "21:30"
         ]
        },
@@ -3192,6 +3093,11 @@ window.DATA = {
          "14:50",
          "17:00",
          "19:15"
+        ],
+        "2026-11-24": [
+         "14:50",
+         "17:00",
+         "19:15"
         ]
        },
        "anteprima": null
@@ -3213,6 +3119,9 @@ window.DATA = {
          "21:33"
         ],
         "2026-11-23": [
+         "21:30"
+        ],
+        "2026-11-24": [
          "21:30"
         ]
        },
@@ -3249,6 +3158,10 @@ window.DATA = {
          "19:05"
         ],
         "2026-11-23": [
+         "17:15",
+         "19:15"
+        ],
+        "2026-11-24": [
          "17:15",
          "19:15"
         ]
@@ -3292,6 +3205,11 @@ window.DATA = {
          "14:50",
          "17:00",
          "19:15"
+        ],
+        "2026-11-24": [
+         "14:50",
+         "17:00",
+         "19:15"
         ]
        },
        "anteprima": null
@@ -3313,6 +3231,9 @@ window.DATA = {
          "21:30"
         ],
         "2026-11-23": [
+         "21:30"
+        ],
+        "2026-11-24": [
          "21:30"
         ]
        },
